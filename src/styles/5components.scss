@@ -1,0 +1,189 @@
+// padding margins borders
+
+.padding-m {
+	padding: $m;
+}
+
+.padding-xs {
+	padding: $xs;
+}
+
+.padding-s {
+	padding: $s;
+}
+
+.margin-m {
+	margin: $m;
+}
+
+.margin-t-m {
+	margin-top: $m;
+}
+
+.margin-t-s {
+	margin-top: $s;
+}
+
+.margin-r-s {
+	margin-right: $s;
+}
+
+.margin-sides-xxs {
+	margin-left: $xxs;
+	margin-right: $xxs;
+}
+
+.margin-sides-m {
+	margin-left: $m;
+	margin-right: $m;
+}
+
+.margin-sides-l {
+	margin-left: $l;
+	margin-right: $l;
+}
+
+.border-b {
+	border-bottom: 1px solid $brightish;
+}
+
+.border {
+	border: 1px solid $medium-color;
+}
+
+.border-bright {
+	border: 1px solid $highlight;
+}
+
+.border-0 {
+	border-width: 0;
+}
+
+.corners {
+	border-radius: $xxs;
+}
+
+
+// posistioning: float, flex, centering, widths, heights, etc
+
+.float-r {
+	float: right;
+}
+
+.float-l {
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	align-items: flex-start;
+}
+
+.flex-center {
+	align-self: center;
+	flex: 0 1 auto;
+}
+
+.flex-bottom {
+	align-self: flex-end;
+}
+
+.flex-right {
+	margin-left: auto;
+}
+
+.flex-grow {
+	flex-grow: 2;
+}
+
+.block {
+	display: block;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.max-width {
+	max-width: 960px;
+}
+
+.width-full {
+	width: 100%;
+}
+
+.height-ml {
+	height: $ml;
+}
+
+
+// typography
+
+.font-lg {
+	font-size: 1.15em;
+	line-height: 1.5em;
+}
+
+.font-m {
+	font-size: 1em;
+}
+
+.font-sm {
+	font-size: .85em;
+	line-height: .85em;
+}
+
+.font-xs {
+	font-size: .75em;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.link {
+	text-decoration: none;
+}
+
+
+// colors
+
+.color-bright {
+	color: $bright;
+}
+
+.color-medium {
+	color: $medium-color;
+}
+
+.bg-bright {
+	background-color: $bright;
+}
+
+.bg-highlight {
+	background-color: $highlight;
+}
+
+.fav-svg {
+	fill: $medium-color;
+}
+
+.nah-svg {
+	fill: $medium-color;
+}
+
+textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: $medium-color;
+}

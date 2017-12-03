@@ -1,0 +1,49 @@
+.app {
+	color: $dark;
+}
+
+.app-header {
+	background-color: $highlight;
+	color: white;
+}
+
+.app-header  {
+	h1 {
+		margin: 0;
+	}
+}
+
+.post-user {
+	line-height: $l;
+	display: inline-block;
+}
+
+.sidebar {
+	width: 20%;
+	margin-right: 2%;
+}
+
+.mainbar {
+	width: 78%;
+}
+
+.faved {
+	.fav-svg {
+		fill: $highlight;
+	}
+}
+
+.nahed {
+	.nah-svg {
+		fill: $dark;
+	}
+	.margin-t-s {
+		margin: 0;
+	}
+	.nah-none {
+		display: none;
+	}
+	.padding-m {
+		padding: $xxs $m;
+	}
+}
