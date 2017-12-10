@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import Home from './Home'
-import The404 from './The404'
+import Redirect404 from './Redirect404'
 
 const MainWithRoutes = () => {
   return (
@@ -9,7 +9,7 @@ const MainWithRoutes = () => {
         <div className='margin-m'>
            <Switch>
               <Route exact path='/' component={Home}/>
-              <Route component={The404} />
+              <Route component={Redirect404} />
             </Switch>
         </div>
       </main>
