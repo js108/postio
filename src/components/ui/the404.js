@@ -1,6 +1,11 @@
-const the404 = ({ location }) =>
-    <div>
-        <h1>Whoops cannot find resource at '{location.pathname}'</h1>
-    </div>
+import React from 'react';
 
-export default the404
+const The404 = ({ location }) => {
+	return (
+		<div>
+        	<h1>Whoops cannot find the page '{location.pathname}'</h1>
+    	</div>
+	);
+}
+
+export default The404

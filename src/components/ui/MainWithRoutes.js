@@ -1,13 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import Home from './Home'
-//import the404 from './ui/the404'
+import The404 from './The404'
 
 const MainWithRoutes = () => {
   return (
       <main className='center max-width'>
         <div className='margin-m'>
-          <Home />
+           <Switch>
+              <Route exact path='/' component={Home}/>
+              <Route component={The404} />
+            </Switch>
         </div>
       </main>
   );
@@ -25,7 +28,7 @@ const App = () =>
                     <Switch>
                         <Route exact path="/" component={Colors} />
                         <Route path="/sort/:sort" component={Colors} />
-                        <Route component={Whoops404} />
+                        <Route component={The404} />
                     </Switch>
                 </div>
             )} />
