@@ -61,28 +61,24 @@ const FeedNode = ({id='', user='', avatar='', text='', rating=0, link='', onNewR
     }
 
     const addFavStyles = () => {
-        console.log('fav styles lol')
         const post = document.getElementById(id);
         post.classList.add('faved');
         //console.log(post)
     }
 
     const removeFavStyles = () => {
-        console.log('fav nah remove styles lol')
         const post = document.getElementById(id);
         post.classList.remove('faved');
         //console.log(post)
     }
 
     const addNahStyles = () => {
-        console.log('nah styles lol')
         const post = document.getElementById(id);
         post.classList.add('nahed');
         //console.log(post)
     }
 
     const removeNahStyles = () => {
-        console.log('nah remove styles lol')
         const post = document.getElementById(id);
         post.classList.remove('nahed');
         //console.log(post)

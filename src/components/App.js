@@ -1,36 +1,14 @@
-import React, { Component } from 'react';
-import { Profile, Post, Posts } from './containers'
+import React from 'react';
+import Header from './ui/Header'
+import MainWithRoutes from './ui/MainWithRoutes'
 
-
-class App extends Component {
-  render() {
-    return (
-      <div className='app'>
-        <header className='app-header'>
-          <div className='center max-width'>
-            <div className='margin-sides-m'>
-              <h1>Postio</h1>
-            </div>
-          </div>
-        </header>
-        <main>
-          
-          <div className='center max-width'>
-            <div className='margin-m'>
-              <div className='sidebar float-l'>
-                <Profile />
-              </div>
-              <div className='mainbar float-l'>
-                <Post />
-                <Posts />
-              </div>
-              <div className='clearfix'></div>
-            </div>
-          </div>
-        </main>
-      </div>
-    );
-  }
+const App = () => {
+  return (
+    <div className='app'>
+		<Header />
+		<MainWithRoutes />
+    </div> 
+  );
 }
 
 export default App;
