@@ -5,7 +5,7 @@ import { composeWithDevTools } from 'redux-devtools-extension'
 
 
 const storeFactory = (initialState=stateDate) => 
-	createStore(combineReducers({posts, user}), initialState , composeWithDevTools())
+	createStore(combineReducers({posts, user}), initialState /*, composeWithDevTools()*/)
 
 
 export default storeFactory
