@@ -1,7 +1,7 @@
 import { createStore, combineReducers } from 'redux'
 import { posts, user } from './reducers'
 import stateDate from '../data/initialState'
-import { composeWithDevTools } from 'redux-devtools-extension'
+//import { composeWithDevTools } from 'redux-devtools-extension'
 
 
 const storeFactory = (initialState=stateDate) => 
