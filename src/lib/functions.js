@@ -10,28 +10,78 @@ export const findById = compose(
     filterArrayById
 )
 
-export const submitFav = (rating, id, onNewRating, addFavStyles, removeFavStyles, removeNahStyles) => {
+export const addFavStyles = (arg) => {
+    const post = document.getElementById(arg);
+    post.classList.add('faved');
+}
+
+export const removeFavStyles = (id) => {
+    const post = document.getElementById(id);
+    post.classList.remove('faved');
+    //console.log(post)
+}
+
+export const addNahStyles = (id) => {
+    const post = document.getElementById(id);
+    post.classList.add('nahed');
+    //console.log(post)
+}
+
+export const removeNahStyles = (id) => {
+    const post = document.getElementById(id);
+    post.classList.remove('nahed');
+    //console.log(post)
+}
+
+export const submitFav = (rating, id, onNewRating) => {
     switch (rating) {
         case 0:
             rating = 1,
-            addFavStyles(),
+            addFavStyles(id),
             onNewRating(id, rating)
             break
         case 1:
             rating = 0,
-            removeFavStyles(),
+            removeFavStyles(id),
             onNewRating(id, rating)
             break
         case 2:
             rating = 1,
-            addFavStyles(),
-            removeNahStyles(),
+            addFavStyles(id),
+            removeNahStyles(id),
             onNewRating(id, rating)
             break
         default:
             rating = 1,
-            addFavStyles(),
-            removeNahStyles(),
+            addFavStyles(id),
+            removeNahStyles(id),
+            onNewRating(id, rating)
+    }
+    //e.preventDefault()
+}
+
+export const submitNah = (rating, id, onNewRating) => {
+    switch (rating) {
+        case 0:
+            rating = 2,
+            addNahStyles(id),
+            onNewRating(id, rating)
+            break
+        case 1:
+            rating = 2,
+            addNahStyles(id),
+            removeFavStyles(id),
+            onNewRating(id, rating)
+            break
+        case 2:
+            rating = 0,
+            removeNahStyles(id),
+            onNewRating(id, rating)
+            break
+        default:
+            rating = 2,
+            addNahStyles(id),
+            removeFavStyles(id),
             onNewRating(id, rating)
     }
     //e.preventDefault()

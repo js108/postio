@@ -4,7 +4,6 @@ import FavButton from './FavButton'
 import NahButton from './NahButton'
 import AvatarImage  from './AvatarImage'
 import { Link } from 'react-router-dom'
-import { submitFav } from '../../lib/functions'
 
 const FeedNode = ({id='', user='', avatar='', text='', rating=0, link='', onNewRating=f=>f}) => {
 
@@ -65,7 +64,7 @@ const FeedNode = ({id='', user='', avatar='', text='', rating=0, link='', onNewR
     const addFavStyles = () => {
         const post = document.getElementById(id);
         post.classList.add('faved');
-        //console.log(post)
+        console.log('post', post)
     }
 
     const removeFavStyles = () => {

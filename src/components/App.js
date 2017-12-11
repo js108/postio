@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom'
 import Home from './ui/Home'
-import SinglePost from './ui/SinglePost'
 import Redirect404 from './ui/Redirect404'
 import PageTemplate from './ui/PageTemplate'
 import { Post } from './containers'
