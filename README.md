@@ -1,1 +1,1 @@
-This is the main view of a twitterish app built with react and redux. The site is [here](https://postioo.herokuapp.com). Still to come: ui animations, more views, further design, comments, other stuff!
+This is the the front end of an ever evolving twitterish app built with react and redux. The site is [here](https://postioo.herokuapp.com). Still to come: ui animations, more views, further design, comments, other stuff!
