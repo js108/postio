@@ -2,9 +2,12 @@ import { connect } from 'react-redux'
 import Feed from './ui/Feed'
 import AddPostForm from './ui/AddPostForm'
 import UserProfile from './ui/UserProfile'
+import SinglePost from './ui/SinglePost'
 import { newPost, ratePost } from '../actions'
+import { findById } from '../lib/functions'
 
-export const Post = connect(
+
+export const AddPost = connect(
 	state => ({
 		user: state.user.name,
 		avatar: state.user.avatar
@@ -42,3 +45,7 @@ export const Profile = connect(
 		}),
 		null
 	)(UserProfile)
+
+export const Post = connect (
+(state, props) => findById(state.posts, props.match.params.id) 
+	)(SinglePost)

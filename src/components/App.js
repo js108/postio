@@ -4,13 +4,15 @@ import Home from './ui/Home'
 import SinglePost from './ui/SinglePost'
 import Redirect404 from './ui/Redirect404'
 import PageTemplate from './ui/PageTemplate'
+import { Post } from './containers'
+
 
 const App = () => {
 	return (
 		<PageTemplate>
 			<Switch>
 	            <Route exact path='/' component={Home} />
-	            <Route path="/:id" component={SinglePost} />
+	            <Route path="/:id" component={Post} />
 	            <Route component={Redirect404} />
 	        </Switch>
 		</PageTemplate>

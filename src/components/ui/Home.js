@@ -1,5 +1,5 @@
 import React from 'react'
-import { Profile, Post, Posts } from '../containers'
+import { Profile, AddPost, Posts } from '../containers'
 
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
                 <Profile />
             </div>
             <div className='mainbar float-l'>
-                <Post />
+                <AddPost />
                 <Posts />
             </div>
             <div className='clearfix'></div> 

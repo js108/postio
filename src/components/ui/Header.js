@@ -6,7 +6,7 @@ const Header  = () => {
             <header className='app-header'>
                 <div className='center max-width'>
                     <div className='margin-sides-m'>
-                        <h1>Postio</h1>
+                        <a href='/'><h1>Postio</h1></a>
                     </div>
                 </div>
             </header>
