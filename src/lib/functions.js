@@ -10,8 +10,8 @@ export const findById = compose(
     filterArrayById
 )
 
-export const addFavStyles = (arg) => {
-    const post = document.getElementById(arg);
+export const addFavStyles = (id) => {
+    const post = document.getElementById(id);
     post.classList.add('faved');
 }
 
