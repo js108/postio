@@ -16,7 +16,7 @@
   "scripts": {
     "watch-css": "sass --watch src/styles/styles.scss:src/styles/styles.css",
     "start": "react-scripts start",
-    "start-dev": "npm-run-all -p watch-css start-js",
+    "dev": "npm-run-all -p watch-css start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

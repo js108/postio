@@ -21,14 +21,14 @@ export const ratePost = (id, rating) =>
 	})
 
 
-export const newComment = (user, avatar, text, postId) =>
+export const newComment = (postId, user, avatar, text) =>
 	({
 		type: S.NEW_COMMENT,
 		id: 'comment-' + v4(),
+		postId,
 		user,
 		avatar,
 		text,
-		postId,
 		rating: 0,
 		timestamp: new Date().toString()
 	})

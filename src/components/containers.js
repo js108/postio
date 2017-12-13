@@ -22,36 +22,37 @@ export const AddPost = connect(
 
 export const Posts = connect(
     state =>
-	    ({
-	       posts: state.posts.sort(function(a, b) {
-		    a = new Date(a.timestamp);
-		    b = new Date(b.timestamp);
-		    return a>b ? -1 : a<b ? 1 : 0; 
-			})
-	    }),
-		dispatch =>
-		({
-			onNewRating(id, rating) {
-				dispatch(ratePost(id, rating))
-			}
+    ({
+       posts: state.posts.sort(function(a, b) {
+	    a = new Date(a.timestamp);
+	    b = new Date(b.timestamp);
+	    return a>b ? -1 : a<b ? 1 : 0; 
 		})
+    }),
+	dispatch =>
+	({
+		onNewRating(id, rating) {
+			dispatch(ratePost(id, rating))
+		}
+	})
 )(Feed)
 
 export const Profile = connect(
 	state =>
-		({
-			name: state.user.name,
-			avatar: state.user.avatar
-		}),
-		null
+	({
+		name: state.user.name,
+		avatar: state.user.avatar
+	}),
+	null
 	)(UserProfile)
 
 export const Post = connect (
-(state, props) => findById(state.posts, props.match.params.id),
-		dispatch =>
-		({
-			onNewRating(id, rating) {
-				dispatch(ratePost(id, rating))
-			}
-		})
+	(state, props) => 
+	findById(state.posts, props.match.params.id),
+	dispatch =>
+	({
+		onNewRating(id, rating) {
+			dispatch(ratePost(id, rating))
+		}
+	})
 	)(SinglePost)
