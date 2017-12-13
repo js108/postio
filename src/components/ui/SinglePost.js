@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { AddPost } from '../containers'
+import { Posts, AddPost } from '../containers'
 import FavButton from './FavButton'
 import NahButton from './NahButton'
 import AvatarImage  from './AvatarImage'
@@ -34,7 +34,7 @@ const SinglePost = ({id='', user='', avatar='', text='', rating=0, link='', onNe
 	            <div className='clearfix'></div> 
 
             </div>
-
+            <Posts postId={match.params.id} />
             <AddPost postId={match.params.id} />
         </section>
     )

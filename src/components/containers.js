@@ -24,11 +24,7 @@ export const Posts = connect(
 
 	 state =>
     ({
-		posts: state.posts.filter(item => item.postId === 'home').sort((a, b) => {
-		    a = new Date(a.timestamp);
-		    b = new Date(b.timestamp);
-		    return a>b ? -1 : a<b ? 1 : 0; 
-		})
+		posts: state.posts
     }),
 	dispatch =>
 	({
