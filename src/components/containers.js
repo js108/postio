@@ -47,8 +47,7 @@ export const Profile = connect(
 	)(UserProfile)
 
 export const Post = connect (
-	(state, props) => 
-	findById(state.posts, props.match.params.id),
+	(state, props) => findById(state.posts, props.match.params.id),
 	dispatch =>
 	({
 		onNewRating(id, rating) {

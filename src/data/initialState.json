@@ -2,6 +2,7 @@
   "posts": [
     {
       "id": "post-8658c1d0-9eda-4a90-95e1-8001e8eb6036",
+      "postId": "home",
       "user": "UtilityLimb",
       "avatar": "bandit.png",
       "text": "Programming Skills: PRIMARILY RUBY AND PYTHON BUT I CAN USE ANY TYPE OF GEM TO CONTROL ANY TYPE OF SNAKE",
@@ -11,6 +12,7 @@
     },
     {
       "id": "post-f9005b4e-975e-433d-a646-79df172e1dbb",
+      "postId": "home",
       "user": "conortripler",
       "avatar": "connor.jpg",
       "text": "*sits 27 hours for an oil on canvas portrait* omg delete that. Bartholomew im serious do not fucking hang that in the Great Hall",
@@ -20,6 +22,7 @@
     },
     {
       "id": "post-58d9caee-6ea6-4d7b-9984-65b145031979",
+      "postId": "home",
       "user": "vineyille",
       "avatar": "vineyille.jpeg",
       "text": "[whispering to date while watching Chappie when Chappie first appears on the screen] That's Chappie",
@@ -29,6 +32,7 @@
     },
     {
       "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f95",
+      "postId": "home",
       "user": "dril",
       "avatar": "dril.jpg",
       "text": "it is with a heavy heart that i must announce that the celebs are at it again",
@@ -38,6 +42,7 @@
     },
     {
       "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f96",
+      "postId": "home",
       "user": "tree_bro",
       "avatar": "treebro.jpg",
       "text": "*Cracks Diet Pepsi* Ahh...Refreshing Diet Peppi *Slowly Sips, Then Gulps, The Diet Pappo** Ahh, Diet Parpo. Thank's To The Papor-Colla Corp.",
@@ -47,6 +52,7 @@
     },
     {
       "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f97",
+      "postId": "home",
       "user": "tricialockwood",
       "avatar": "lockwood.jpg",
       "text": "Sext: Easy-Listening Dracula drinks the blood of a saxophonist. He smiles and feels the mellow blood spread through him like smooth jazz",
@@ -56,6 +62,7 @@
     },
     {
       "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f98",
+      "postId": "home",
       "user": "cool_pond",
       "avatar": "coolpond.jpeg",
       "text": "son we need to talk. your mom and i saw your internet history and it wasnt pretty. frankly, we are concerned. can you seriously not kickflip",
@@ -65,6 +72,7 @@
     },
     {
       "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f99",
+      "postId": "home",
       "user": "degg",
       "avatar": "degg.jpg",
       "text": "*crests a hill* hey dudes",
@@ -74,6 +82,7 @@
     },
     {
       "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f10",
+      "postId": "home",
       "user": "admin",
       "avatar": "admin.jpg",
       "text": "This is the main view, built with react and redux, for an otherwise hypothetical twitterish app. The c0de is here https://github.com/js108/postio. Still to come: routing, more views, ui animations, further design, refactoring, other stuff!",
@@ -83,15 +92,14 @@
     },
     {
       "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f11",
+      "postId": "home",
       "user": "admin",
       "avatar": "admin.jpg",
       "text": "Click user names to see the original tweets. You should follow the tweeters, they are good. Click my name to get my contact info and hire me to build something. Or if you just want to say hey that's nice too.",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:25:00 GMT-0800 (PST)",
       "link": "http://joeschoech.com"
-    }
-  ], 
-  "comments": [
+    },
     {
       "id": "comment-8658c1d0-9eda-4a90-95e1-8001e8eb60361",
       "postId": "post-8658c1d0-9eda-4a90-95e1-8001e8eb6036",
@@ -308,7 +316,7 @@
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:25:01 GMT-0800 (PST)"
     }
-  ],
+  ], 
   "user": {
     "name": "admin",
     "avatar": "admin.jpg"
