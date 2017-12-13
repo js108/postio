@@ -5,10 +5,26 @@ export const getFirstArrayItem = array => array[0]
 export const filterArrayById = (array, id) =>
     array.filter(item => item.id === id)
 
+   
+
 export const findById = compose(
     getFirstArrayItem,
     filterArrayById
 )
+
+export const log = (array, postId) => console.log(array, postId)
+export const putArrayInObject = array => { { posts: array } }
+
+export const filterArrayByPostId = (array, postId) => {
+    array.filter(item => item.postId === postId)
+}
+
+export const findByPostId = compose(
+    /*putArrayInObject,
+    filterArrayByPostId*/
+    log
+)
+
 
 export const addFavStyles = (id) => {
     const post = document.getElementById(id);

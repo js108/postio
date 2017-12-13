@@ -1,16 +1,6 @@
 {
   "posts": [
     {
-      "id": "post-8658c1d0-9eda-4a90-95e1-8001e8eb6036",
-      "postId": "home",
-      "user": "UtilityLimb",
-      "avatar": "bandit.png",
-      "text": "Programming Skills: PRIMARILY RUBY AND PYTHON BUT I CAN USE ANY TYPE OF GEM TO CONTROL ANY TYPE OF SNAKE",
-      "rating": 0,
-      "timestamp": "Sat Mar 12 2016 16:12:09 GMT-0800 (PST)",
-      "link": "https://twitter.com/utilitylimb/status/126780301211992064"
-    },
-    {
       "id": "post-f9005b4e-975e-433d-a646-79df172e1dbb",
       "postId": "home",
       "user": "conortripler",
@@ -19,6 +9,16 @@
       "rating": 0,
       "timestamp": "Fri Mar 11 2016 12:00:00 GMT-0800 (PST)",
       "link": "https://twitter.com/conortripler/status/671106116768555008"
+    },    
+    {
+      "id": "post-8658c1d0-9eda-4a90-95e1-8001e8eb6036",
+      "postId": "home",
+      "user": "UtilityLimb",
+      "avatar": "bandit.png",
+      "text": "Programming Skills: PRIMARILY RUBY AND PYTHON BUT I CAN USE ANY TYPE OF GEM TO CONTROL ANY TYPE OF SNAKE",
+      "rating": 0,
+      "timestamp": "Sat Mar 12 2016 16:12:09 GMT-0800 (PST)",
+      "link": "https://twitter.com/utilitylimb/status/126780301211992064"
     },
     {
       "id": "post-58d9caee-6ea6-4d7b-9984-65b145031979",
@@ -104,8 +104,8 @@
       "id": "comment-8658c1d0-9eda-4a90-95e1-8001e8eb60361",
       "postId": "post-8658c1d0-9eda-4a90-95e1-8001e8eb6036",
       "user": "UtilityLimb",
-      "avatar": "bandit.png",
-      "text": "Programming Skills: PRIMARILY RUBY AND PYTHON BUT I CAN USE ANY TYPE OF GEM TO CONTROL ANY TYPE OF SNAKE",
+      "avatar": "egg-blue.png",
+      "text": "1 Programming Skills: PRIMARILY RUBY AND PYTHON BUT I CAN USE ANY TYPE OF GEM TO CONTROL ANY TYPE OF SNAKE",
       "rating": 0,
       "timestamp": "Sat Mar 12 2016 16:12:09 GMT-0800 (PST)"
     },
@@ -113,8 +113,8 @@
       "id": "comment-8658c1d0-9eda-4a90-95e1-8001e8eb60362",
       "postId": "post-8658c1d0-9eda-4a90-95e1-8001e8eb6036",
       "user": "UtilityLimb",
-      "avatar": "bandit.png",
-      "text": "Programming Skills: PRIMARILY RUBY AND PYTHON BUT I CAN USE ANY TYPE OF GEM TO CONTROL ANY TYPE OF SNAKE",
+      "avatar": "egg-blue.png",
+      "text": "2 Programming Skills: PRIMARILY RUBY AND PYTHON BUT I CAN USE ANY TYPE OF GEM TO CONTROL ANY TYPE OF SNAKE",
       "rating": 0,
       "timestamp": "Sat Mar 12 2016 16:12:10 GMT-0800 (PST)"
     },
@@ -122,8 +122,8 @@
       "id": "comment-8658c1d0-9eda-4a90-95e1-8001e8eb60363",
       "postId": "post-8658c1d0-9eda-4a90-95e1-8001e8eb6036",
       "user": "UtilityLimb",
-      "avatar": "bandit.png",
-      "text": "Programming Skills: PRIMARILY RUBY AND PYTHON BUT I CAN USE ANY TYPE OF GEM TO CONTROL ANY TYPE OF SNAKE",
+      "avatar": "egg-blue.png",
+      "text": "3 Programming Skills: PRIMARILY RUBY AND PYTHON BUT I CAN USE ANY TYPE OF GEM TO CONTROL ANY TYPE OF SNAKE",
       "rating": 0,
       "timestamp": "Sat Mar 12 2016 16:12:11 GMT-0800 (PST)"
     },
@@ -131,8 +131,8 @@
       "id": "comment-f9005b4e-975e-433d-a646-79df172e1dbb4",
       "postId": "post-f9005b4e-975e-433d-a646-79df172e1dbb",
       "user": "conortripler",
-      "avatar": "connor.jpg",
-      "text": "*sits 27 hours for an oil on canvas portrait* omg delete that. Bartholomew im serious do not fucking hang that in the Great Hall",
+      "avatar": "egg-blue.png",
+      "text": "1 *sits 27 hours for an oil on canvas portrait* omg delete that. Bartholomew im serious do not fucking hang that in the Great Hall",
       "rating": 0,
       "timestamp": "Fri Mar 11 2016 12:00:00 GMT-0800 (PST)"
     },
@@ -140,8 +140,8 @@
       "id": "comment-f9005b4e-975e-433d-a646-79df172e1dbb5",
       "postId": "post-f9005b4e-975e-433d-a646-79df172e1dbb",
       "user": "conortripler",
-      "avatar": "connor.jpg",
-      "text": "*sits 27 hours for an oil on canvas portrait* omg delete that. Bartholomew im serious do not fucking hang that in the Great Hall",
+      "avatar": "egg-blue.png",
+      "text": "2 *sits 27 hours for an oil on canvas portrait* omg delete that. Bartholomew im serious do not fucking hang that in the Great Hall",
       "rating": 0,
       "timestamp": "Fri Mar 11 2016 12:00:01 GMT-0800 (PST)"
     },
@@ -149,8 +149,8 @@
       "id": "comment-f9005b4e-975e-433d-a646-79df172e1dbb6",
       "postId": "post-f9005b4e-975e-433d-a646-79df172e1dbb",
       "user": "conortripler",
-      "avatar": "connor.jpg",
-      "text": "*sits 27 hours for an oil on canvas portrait* omg delete that. Bartholomew im serious do not fucking hang that in the Great Hall",
+      "avatar": "egg-blue.png",
+      "text": "3 *sits 27 hours for an oil on canvas portrait* omg delete that. Bartholomew im serious do not fucking hang that in the Great Hall",
       "rating": 0,
       "timestamp": "Fri Mar 11 2016 12:00:02 GMT-0800 (PST)"
     },
@@ -158,8 +158,8 @@
       "id": "comment-58d9caee-6ea6-4d7b-9984-65b1450319797",
       "postId": "post-58d9caee-6ea6-4d7b-9984-65b145031979",
       "user": "vineyille",
-      "avatar": "vineyille.jpeg",
-      "text": "[whispering to date while watching Chappie when Chappie first appears on the screen] That's Chappie",
+      "avatar": "egg-blue.png",
+      "text": "1 [whispering to date while watching Chappie when Chappie first appears on the screen] That's Chappie",
       "rating": 0,
       "timestamp": "Thu Mar 10 2016 01:11:12 GMT-0800 (PST)"
     },
@@ -167,8 +167,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f958",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f95",
       "user": "dril",
-      "avatar": "dril.jpg",
-      "text": "it is with a heavy heart that i must announce that the celebs are at it again",
+      "avatar": "egg-blue.png",
+      "text": "1 it is with a heavy heart that i must announce that the celebs are at it again",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:06 GMT-0800 (PST)"
     },
@@ -176,8 +176,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f959",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f95",
       "user": "dril",
-      "avatar": "dril.jpg",
-      "text": "it is with a heavy heart that i must announce that the celebs are at it again",
+      "avatar": "egg-blue.png",
+      "text": "2 it is with a heavy heart that i must announce that the celebs are at it again",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:07 GMT-0800 (PST)"
     },
@@ -185,8 +185,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f950",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f95",
       "user": "dril",
-      "avatar": "dril.jpg",
-      "text": "it is with a heavy heart that i must announce that the celebs are at it again",
+      "avatar": "egg-blue.png",
+      "text": "3 it is with a heavy heart that i must announce that the celebs are at it again",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:08 GMT-0800 (PST)"
     },
@@ -194,8 +194,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f951",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f95",
       "user": "dril",
-      "avatar": "dril.jpg",
-      "text": "it is with a heavy heart that i must announce that the celebs are at it again",
+      "avatar": "egg-blue.png",
+      "text": "4 it is with a heavy heart that i must announce that the celebs are at it again",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:09 GMT-0800 (PST)"
     },
@@ -203,8 +203,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f952",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f95",
       "user": "dril",
-      "avatar": "dril.jpg",
-      "text": "it is with a heavy heart that i must announce that the celebs are at it again",
+      "avatar": "egg-blue.png",
+      "text": "5 it is with a heavy heart that i must announce that the celebs are at it again",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:10 GMT-0800 (PST)"
     },
@@ -212,8 +212,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f963",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f96",
       "user": "tree_bro",
-      "avatar": "treebro.jpg",
-      "text": "*Cracks Diet Pepsi* Ahh...Refreshing Diet Peppi *Slowly Sips, Then Gulps, The Diet Pappo** Ahh, Diet Parpo. Thank's To The Papor-Colla Corp.",
+      "avatar": "egg-blue.png",
+      "text": "1 *Cracks Diet Pepsi* Ahh...Refreshing Diet Peppi *Slowly Sips, Then Gulps, The Diet Pappo** Ahh, Diet Parpo. Thank's To The Papor-Colla Corp.",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:05 GMT-0800 (PST)"
     },
@@ -221,8 +221,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f964",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f96",
       "user": "tree_bro",
-      "avatar": "treebro.jpg",
-      "text": "*Cracks Diet Pepsi* Ahh...Refreshing Diet Peppi *Slowly Sips, Then Gulps, The Diet Pappo** Ahh, Diet Parpo. Thank's To The Papor-Colla Corp.",
+      "avatar": "egg-blue.png",
+      "text": "2 *Cracks Diet Pepsi* Ahh...Refreshing Diet Peppi *Slowly Sips, Then Gulps, The Diet Pappo** Ahh, Diet Parpo. Thank's To The Papor-Colla Corp.",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:06 GMT-0800 (PST)"
     },
@@ -230,8 +230,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f975",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f97",
       "user": "tricialockwood",
-      "avatar": "lockwood.jpg",
-      "text": "Sext: Easy-Listening Dracula drinks the blood of a saxophonist. He smiles and feels the mellow blood spread through him like smooth jazz",
+      "avatar": "egg-blue.png",
+      "text": "1 Sext: Easy-Listening Dracula drinks the blood of a saxophonist. He smiles and feels the mellow blood spread through him like smooth jazz",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:04 GMT-0800 (PST)"
     },
@@ -239,8 +239,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f976",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f97",
       "user": "tricialockwood",
-      "avatar": "lockwood.jpg",
-      "text": "Sext: Easy-Listening Dracula drinks the blood of a saxophonist. He smiles and feels the mellow blood spread through him like smooth jazz",
+      "avatar": "egg-blue.png",
+      "text": "2 Sext: Easy-Listening Dracula drinks the blood of a saxophonist. He smiles and feels the mellow blood spread through him like smooth jazz",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:05 GMT-0800 (PST)"
     },
@@ -248,8 +248,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f977",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f97",
       "user": "tricialockwood",
-      "avatar": "lockwood.jpg",
-      "text": "Sext: Easy-Listening Dracula drinks the blood of a saxophonist. He smiles and feels the mellow blood spread through him like smooth jazz",
+      "avatar": "egg-blue.png",
+      "text": "3 Sext: Easy-Listening Dracula drinks the blood of a saxophonist. He smiles and feels the mellow blood spread through him like smooth jazz",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:06 GMT-0800 (PST)"
     },
@@ -257,8 +257,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f988",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f98",
       "user": "cool_pond",
-      "avatar": "coolpond.jpeg",
-      "text": "son we need to talk. your mom and i saw your internet history and it wasnt pretty. frankly, we are concerned. can you seriously not kickflip",
+      "avatar": "egg-blue.png",
+      "text": "1 son we need to talk. your mom and i saw your internet history and it wasnt pretty. frankly, we are concerned. can you seriously not kickflip",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:03 GMT-0800 (PST)"
     },
@@ -266,8 +266,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f989",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f98",
       "user": "cool_pond",
-      "avatar": "coolpond.jpeg",
-      "text": "son we need to talk. your mom and i saw your internet history and it wasnt pretty. frankly, we are concerned. can you seriously not kickflip",
+      "avatar": "egg-blue.png",
+      "text": "2 son we need to talk. your mom and i saw your internet history and it wasnt pretty. frankly, we are concerned. can you seriously not kickflip",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:04 GMT-0800 (PST)"
     },
@@ -275,8 +275,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f990",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f99",
       "user": "degg",
-      "avatar": "degg.jpg",
-      "text": "*crests a hill* hey dudes",
+      "avatar": "egg-blue.png",
+      "text": "1 *crests a hill* hey dudes",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:01 GMT-0800 (PST)"
     },
@@ -284,8 +284,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f101",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f10",
       "user": "admin",
-      "avatar": "admin.jpg",
-      "text": "This is the main view, built with react and redux, for an otherwise hypothetical twitterish app. The c0de is here https://github.com/js108/postio. Still to come: routing, more views, ui animations, further design, refactoring, other stuff!",
+      "avatar": "egg-blue.png",
+      "text": "1 This is the main view, built with react and redux, for an otherwise hypothetical twitterish app. The c0de is here https://github.com/js108/postio. Still to come: routing, more views, ui animations, further design, refactoring, other stuff!",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:00 GMT-0800 (PST)"
     },
@@ -293,8 +293,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f102",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f10",
       "user": "admin",
-      "avatar": "admin.jpg",
-      "text": "This is the main view, built with react and redux, for an otherwise hypothetical twitterish app. The c0de is here https://github.com/js108/postio. Still to come: routing, more views, ui animations, further design, refactoring, other stuff!",
+      "avatar": "egg-blue.png",
+      "text": "2 This is the main view, built with react and redux, for an otherwise hypothetical twitterish app. The c0de is here https://github.com/js108/postio. Still to come: routing, more views, ui animations, further design, refactoring, other stuff!",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:01 GMT-0800 (PST)"
     },
@@ -302,8 +302,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f113",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f11",
       "user": "admin",
-      "avatar": "admin.jpg",
-      "text": "Click user names to see the original tweets. You should follow the tweeters, they are good. Click my name to get my contact info and hire me to build something. Or if you just want to say hey that's nice too.",
+      "avatar": "egg-blue.png",
+      "text": "1 Click user names to see the original tweets. You should follow the tweeters, they are good. Click my name to get my contact info and hire me to build something. Or if you just want to say hey that's nice too.",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:25:00 GMT-0800 (PST)"
     },
@@ -311,8 +311,8 @@
       "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f114",
       "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f11",
       "user": "admin",
-      "avatar": "admin.jpg",
-      "text": "Click user names to see the original tweets. You should follow the tweeters, they are good. Click my name to get my contact info and hire me to build something. Or if you just want to say hey that's nice too.",
+      "avatar": "egg-blue.png",
+      "text": "2 Click user names to see the original tweets. You should follow the tweeters, they are good. Click my name to get my contact info and hire me to build something. Or if you just want to say hey that's nice too.",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:25:01 GMT-0800 (PST)"
     }

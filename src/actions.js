@@ -1,10 +1,11 @@
 import S from './constants'
 import { v4 } from 'uuid'
 
-export const newPost = (user, avatar, text) =>
+export const newPost = (postId, user, avatar, text) =>
 	({
 		type: S.NEW_POST,
 		id: 'post-' + v4(),
+		postId,
 		user,
 		avatar,
 		text,

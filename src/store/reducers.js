@@ -5,6 +5,7 @@ export const post = (state = {}, action={ type: null }) => {
 		case S.NEW_POST:
 			return {
 				id: action.id,
+				postId: action.postId,
 				user: action.user,
 				avatar: action.avatar,
 				text: action.text,

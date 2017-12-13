@@ -1,13 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const AddPostForm = ({user='', avatar='', onNewPost=f=>f, onSubmit=f=>f}) => {
+const AddPostForm = ({user='', avatar='', onNewPost=f=>f, onSubmit=f=>f, postId}) => {
 
     let _text
 
     const submitValue = e => {
+        postId = postId || 'home'
         e.preventDefault()
-        onNewPost(user, avatar, _text.value)
+        onNewPost(postId, user, avatar, _text.value)
         document.getElementById('post-form').value = ''
     }
 

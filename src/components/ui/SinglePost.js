@@ -1,17 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { AddPost } from '../containers'
 import FavButton from './FavButton'
 import NahButton from './NahButton'
 import AvatarImage  from './AvatarImage'
 import { submitFav, submitNah } from '../../lib/functions'
 
-const SinglePost = ({id='', user='', avatar='', text='', rating=0, link='', onNewRating=f=>f}) => {
+
+
+const SinglePost = ({id='', user='', avatar='', text='', rating=0, link='', onNewRating=f=>f, match}) => {
 
 	const submitF = () => submitFav(rating, id, onNewRating)
 	const submitN = () => submitNah(rating, id, onNewRating)
-
     return (
         <section id={id} className='post border-b'>
+        
             <div className='padding-m bg-bright'>
 	            <div className='single-avatar float-l'>
 		            <AvatarImage avatarName={avatar} />
@@ -20,7 +23,6 @@ const SinglePost = ({id='', user='', avatar='', text='', rating=0, link='', onNe
 	            <div className='single-content float-l'>
 	                <div className='post-text font-lg nah-none'>
 	                    {text}
-	                    
 	                </div>
 	                <div className='margin-t-s font-sm flex-container'>
 	                    <div className='height-ml block nah-none'></div>
@@ -29,8 +31,11 @@ const SinglePost = ({id='', user='', avatar='', text='', rating=0, link='', onNe
 	                    <div className='flex-center cursor-pointer flex-right' onClick={submitN}><NahButton /></div>
 	                </div>
 	            </div>
-	            <div className='clearfix'></div>    
+	            <div className='clearfix'></div> 
+
             </div>
+
+            <AddPost postId={match.params.id} />
         </section>
     )
 

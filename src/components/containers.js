@@ -4,7 +4,7 @@ import AddPostForm from './ui/AddPostForm'
 import UserProfile from './ui/UserProfile'
 import SinglePost from './ui/SinglePost'
 import { newPost, ratePost } from '../actions'
-import { findById } from '../lib/functions'
+import { findById, findByPostId } from '../lib/functions'
 
 
 export const AddPost = connect(
@@ -14,19 +14,20 @@ export const AddPost = connect(
 	}),
 	dispatch =>
 	({
-		onNewPost(user, avatar, text) {
-                dispatch(newPost(user, avatar, text))
+		onNewPost(postId, user, avatar, text) {
+                dispatch(newPost(postId, user, avatar, text))
         }
 	})
 )(AddPostForm)
 
 export const Posts = connect(
-    state =>
+
+	 state =>
     ({
-       posts: state.posts.sort(function(a, b) {
-	    a = new Date(a.timestamp);
-	    b = new Date(b.timestamp);
-	    return a>b ? -1 : a<b ? 1 : 0; 
+		posts: state.posts.filter(item => item.postId === 'home').sort((a, b) => {
+		    a = new Date(a.timestamp);
+		    b = new Date(b.timestamp);
+		    return a>b ? -1 : a<b ? 1 : 0; 
 		})
     }),
 	dispatch =>
@@ -55,3 +56,17 @@ export const Post = connect (
 		}
 	})
 	)(SinglePost)
+
+	/*
+	state => findByPostId(state.posts, 'home'),
+
+	    state =>
+    ({
+		posts: state.posts
+    }),
+
+		state.posts.sort(function(a, b) {
+	    a = new Date(a.timestamp);
+	    b = new Date(b.timestamp);
+	    return a>b ? -1 : a<b ? 1 : 0; 
+		})*/
