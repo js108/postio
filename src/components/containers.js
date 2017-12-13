@@ -40,8 +40,8 @@ export const Profile = connect(
 		name: state.user.name,
 		avatar: state.user.avatar
 	}),
-	null
-	)(UserProfile)
+		null
+)(UserProfile)
 
 export const Post = connect (
 	(state, props) => findById(state.posts, props.match.params.id),
@@ -52,17 +52,3 @@ export const Post = connect (
 		}
 	})
 	)(SinglePost)
-
-	/*
-	state => findByPostId(state.posts, 'home'),
-
-	    state =>
-    ({
-		posts: state.posts
-    }),
-
-		state.posts.sort(function(a, b) {
-	    a = new Date(a.timestamp);
-	    b = new Date(b.timestamp);
-	    return a>b ? -1 : a<b ? 1 : 0; 
-		})*/

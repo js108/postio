@@ -6,7 +6,7 @@ import AvatarImage  from './AvatarImage'
 import { Link } from 'react-router-dom'
 import { submitFav, submitNah } from '../../lib/functions'
 
-const FeedNode = ({id='', user='', avatar='', text='', rating=0, link='', onNewRating=f=>f}) => {
+const FeedNode = ({id='', user='', avatar='', text='', rating=0, link='', timestamp='', onNewRating=f=>f}) => {
 
     const submitF = () => submitFav(rating, id, onNewRating)
     const submitN = () => submitNah(rating, id, onNewRating)
@@ -15,7 +15,7 @@ const FeedNode = ({id='', user='', avatar='', text='', rating=0, link='', onNewR
         <section id={id} className='post border-b'>
             <div className='padding-m'>
                 <div className='post-text font-lg nah-none'>
-                    {text}
+                    {text} : {timestamp}
                     
                 </div>
                 <div className='margin-t-s font-sm flex-container'>

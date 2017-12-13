@@ -4,19 +4,19 @@ import FeedNode from './FeedNode'
 
 const Feed = ({ posts=[], onNewRating=f=>f, postId='home'}) => {
 
-   const filteredPosts = posts.filter(item => item.postId === postId)
-   const sortedPosts = postId !== 'home' ? filteredPosts : filteredPosts.sort((a, b) => {
+   const filteredPosts = posts.filter(item => item.postId === postId).sort((a, b) => {
             a = new Date(a.timestamp);
             b = new Date(b.timestamp);
-            return a>b ? -1 : a<b ? 1 : 0; 
-        })
+            return a>b ? -1 : a<b ? 1 : 0;
+             })
+   const sortedPosts = postId === 'home' ? filteredPosts : filteredPosts.reverse()
     
 
     return (
         <div className='feed bg-bright'>
-            {(filteredPosts.length === 0) ?
+            {(sortedPosts.length === 0) ?
                 <p>There's no posts.</p> :
-                filteredPosts.map(post =>
+                sortedPosts.map(post =>
                     <FeedNode key={post.id}
                         {...post}
                         onNewRating={(id, rating) => onNewRating(post.id, rating)}
