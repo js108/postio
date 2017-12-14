@@ -1,6 +1,6 @@
 This is the the front end of an ever evolving twitterish app built with react and redux. 
 
-The site is [here](https://postioo.herokuapp.com). 
+The site is [here](https://postioo.herokuapp.com). Sometimes takes a second to wake up on that free heroku plan. Maybe I should ping it every so often.
 
 Still to come: ui animations, more views, further design, refactoring, other stuff!
 
