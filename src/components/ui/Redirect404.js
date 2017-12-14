@@ -1,3 +1,9 @@
+/*
+
+we all know this guy
+
+*/
+
 import React from 'react';
 
 const Redirect404 = ({ location }) => {

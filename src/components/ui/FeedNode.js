@@ -2,7 +2,7 @@
 
 a single post in the feed
 
-it receives a ton of props from the Feed component (src/components/ui/Feed),
+it receives a ton of props from the Feed component (src/components/ui/Feed.js) via the Posts container (src/components/containers.js),
 and has post rating functionality
 
 */

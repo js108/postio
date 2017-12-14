@@ -1,8 +1,8 @@
 /*
 
-renders a post (SinglePost, src/components/ui/SinglePost), its comments (Posts, src/components/containers), 
-and the form to add a comment (AddPost, src/components/containers),
-via being wrapped in/reciveing a whole mess of props from the Post container (src/components/containers)
+renders a post (SinglePost, src/components/ui/SinglePost.js), its comments (Posts, src/components/containers.js), 
+and the form to add a comment (AddPost, src/components/containers.js),
+via being wrapped in/reciveing a whole mess of props from the Post container (src/components/containers.js)
 
 there's info about how this works from a redux store perspective in the readme
 

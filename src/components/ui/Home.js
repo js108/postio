@@ -1,6 +1,6 @@
 /*
 
-The Profile, AddPost, and Posts containers (src/components/containers) are combined to create the home view
+The Profile, AddPost, and Posts containers (src/components/containers.js) are combined to create the home view
 
 */
 

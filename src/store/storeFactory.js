@@ -1,6 +1,6 @@
 /*
 
-the store factory combines the post and user reducers to instante the store at index.js (src/index)
+the store factory combines the post and user reducers to instante the store at index.js (src/index.js)
 
 i need to set up my dev env a lil better im just commenting out redux dev tools before pushing to production tsk tsk
 redux dev tools is super hand btw it lets u see the state in your browser's dev tools + other cool stuff

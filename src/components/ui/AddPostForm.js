@@ -2,7 +2,7 @@
 
 the form for posting your good posts to the app
 
-it receives prop from/is wrapped in the AddPost container (src/components/containers.js),
+it receives props from/is wrapped in the AddPost container (src/components/containers.js),
 and sends data to the state using the submitValue function via the AddPost container
 
 */

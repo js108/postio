@@ -1,9 +1,9 @@
 /*
 
-the Feed component posts from/is wrapped in the Posts container (src/components/containers),
+the Feed component receives posts from/is wrapped in the Posts container (src/components/containers.js),
 then filters the posts via their postID,
 if the postId is the default 'home' they're displayed on the home page in reverse chronological order,
-if the postID is an id of another post received as an argument they're displayed as comments of that post in chronological order,
+if the postID is an id of another post, received as an prop, they're displayed as comments of that post in chronological order,
 there's more info on in this in the readme
 
 props are mapped to the FeedNode component (src/components/ui/FeedNode) to build individual posts

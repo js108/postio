@@ -38,15 +38,19 @@ The state is instantiated from json in src/data/initialState.json and looks like
 }
 ```
 
-All posts and comments are in the posts array, which allows us to use the same components, actions, and reducers for both. Eg the feed on the home page is the same component as the comments on a single post page.
+All posts and comments are in the posts array—which allows us to use the same components, actions, and reducers for both. Eg the feed on the home page is the same component (src/components/ui/Feed.js) as the comments on a single post page.
 
 Posts and comments are differentiated by their postId: if the postId is "home" then it's a post that will appear on the home page. If the postID is an id of another post then it will be rendered as a comment of that post.
 
 ## The components
 Components are pretty well commented. If you want to take a look the app lives at src/index.js. The next step would be to check out src/components/App.js. Then you could look at all the redux stuff in src/store/storeFactory.js, src/store/reducers.js, src/actions.js, src/components/containers.js. Then all the stateless react components are in src/components/ui
 
-## What to do next
-I really need to refactor the css. You can check out my thoughts on this in src/styles/styles.css. Things got out of hand. Please don't judge me.
+## What I want to do next
+First I really need to refactor the css. You can check out my thoughts on the topic in src/styles/styles.css. Things got out of hand. Please don't judge me.
+
+I'd like to have state persist in local storage.
+
+Maybe I'll build the backend some day and turn it into a real app. Please do not steal my billion dollar idea. Thank you.
 
 ## Say hi
-Visit my siteThe site is [my site](https://joeschoech.com) if you want to contact me
+Visit [my site](https://joeschoech.com) if you'd like to contact me.

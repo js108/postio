@@ -8,7 +8,8 @@ and 404 redirect
 
 the routes are wrapped in the Switch component provided by react-router which iterates over the routes until it finds a match
 
-the Switch component is wrapped in the PageTemplate component so that template parts of the app wont have to reload every time a new route is called
+the Switch component is wrapped in the PageTemplate component (src/components/ui/PageTemplate.js),
+so that the template parts of the app wont have to reload every time a new route is called
 
 */
 

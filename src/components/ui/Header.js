@@ -1,6 +1,6 @@
 /*
 
-The humble header which is part of the PageTemplate (src/components/ui/PageTemplate)
+The humble header which is part of the PageTemplate (src/components/ui/PageTemplate.js)
 
 I need to react-routerize that link
 

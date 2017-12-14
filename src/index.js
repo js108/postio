@@ -2,11 +2,11 @@
 
 here it is the app itself
 
-the redux store is instantiated by calling the storeFactory function
+the redux store is instantiated by calling the storeFactory function (src/store/storeFactory.js)
 
 window.React and window.store put react and the redux store into the global window scope for routing purposes
 
-the App component is wrapped in the HashRouter component provided by react-router to do routing ,
+the App component is wrapped in the HashRouter component provided by react-router to do routing,
 then that is wrapped in the Provider component which connects redux to react,
 then the whole thing is rendered by react
 

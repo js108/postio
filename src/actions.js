@@ -1,6 +1,6 @@
 /*
 
-actions interact with reducers (src/store/reducers) and containers (src/components/containers) to manage state,
+actions interact with reducers (src/store/reducers.js) and containers (src/components/containers.js) to manage state,
 eg when the AddPost container dispatches the newPost function defined here it passes postId, user, avatar, and text props,
 then the newPost function generates the type, id, rating, timestamp, and link values itself,
 then the object is run through a reducer's logic and based on its type it updates the parts of the store that need updating

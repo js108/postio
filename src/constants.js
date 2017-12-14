@@ -1,6 +1,6 @@
 /*
 
-string literals used in defense against typo bugs in actions (src/actions) and reducers (src/store/reducers)
+string literals used in defense against typo bugs in actions (src/actions.js) and reducers (src/store/reducers.js)
 
 */
 

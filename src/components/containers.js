@@ -7,7 +7,8 @@ and dispatch which receives data from react and passes it to the store via actio
 
 the components defined here are kinda the parent components for the whole app, 
 then their children are passed as props at the end of each declaration,
-eg AddPostForm is the child of AddPost
+eg AddPostForm (src/components/ui/AddPostForm.js) is the child of AddPost,
+you can see it in the last parentheses of the AddPost function
 
 */
 

@@ -3,7 +3,7 @@
 the avatar image file name is stored in state then the path to the file is added here
 
 i don't like this set up with the require in markup,
-and neither does the test,
+and neither do the tests,
 gotta refactor this
 
 */

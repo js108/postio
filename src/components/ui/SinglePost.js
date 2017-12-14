@@ -2,6 +2,8 @@
 
 renders a single post and has post rating functionality
 
+recives props from SinglePostPage (src/components/ui/SinglePostPage.js) via the Post container (src/components/contaners.js)
+
 ill prob try to move this functionality over to FeedNode for maximum modularity/reusability
 
 */

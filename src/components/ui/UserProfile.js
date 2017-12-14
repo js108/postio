@@ -1,8 +1,8 @@
 /*
 
 renders the users avatar image and name, 
-via being wrapped in/reciving name and avatar props from the Profile container (src/components/containers),
-which then lives on the home view (src/components/ui/Home)
+via being wrapped in/reciving name and avatar props from the Profile container (src/components/containers.js),
+which then lives on the home view (src/components/ui/Home.js)
 
 */
 
