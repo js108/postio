@@ -7,7 +7,7 @@ Still to come: ui animations, more views, further design, refactoring, other stu
 ## The state
 The state is instantiated from json in src/data/initialState.json and looks like:
 
-`
+```
 {
   "posts": [
     {
@@ -36,7 +36,7 @@ The state is instantiated from json in src/data/initialState.json and looks like
     "avatar": "admin.jpg"
   }
 }
-`
+```
 
 All posts and comments are in the posts array, which allows us to use the same components, actions, and reducers for both. Eg the feed on the home page is the same component as the comments on a single post page.
 
