@@ -53,4 +53,4 @@ I'd like to have state persist in local storage.
 Maybe I'll build the backend some day and turn it into a real app. Please do not steal my billion dollar idea. Thank you.
 
 ## Say hi
-Visit [my site](https://joeschoech.com) if you'd like to contact me.
+Visit [my site](http://joeschoech.com) if you'd like to contact me.
