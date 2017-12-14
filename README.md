@@ -38,7 +38,7 @@ The state is instantiated from json in src/data/initialState.json and looks like
 }
 ```
 
-All posts and comments are in the posts array—which allows us to use the same components, actions, and reducers for both. Eg the feed on the home page is the same component (src/components/ui/Feed.js) as the comments on a single post page.
+All posts and comments are in the posts array—which allows us to use the same components, actions, and reducers for both. Eg the feed on the home view is the same component (src/components/ui/Feed.js) as the comments on a single post view.
 
 Posts and comments are differentiated by their postId: if the postId is "home" then it's a post that will appear on the home page. If the postID is an id of another post then it will be rendered as a comment of that post.
 
