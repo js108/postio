@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import FavButton from './FavButton'
 import NahButton from './NahButton'
+import CommentButton from './CommentButton'
 import AvatarImage  from './AvatarImage'
 import { Link } from 'react-router-dom'
 import { submitFav, submitNah } from '../../lib/functions'
@@ -21,7 +22,7 @@ const FeedNode = ({id='', user='', avatar='', text='', rating=0, link='', timest
                 <div className='margin-t-s font-sm flex-container'>
                     <div className='height-ml block nah-none'><AvatarImage avatarName={avatar} /></div>
                     <div className='margin-sides-xxs flex-center flex-grow nah-none'><a href={link}>{user}</a></div>
-                    <div className='flex-center flex-right margin-sides-m cursor-pointer'><Link className='nested-diplpay-n nah-none' to={id}>Comment</Link></div>
+                    <div className='flex-center flex-right margin-sides-m cursor-pointer nah-none'><Link className='nested-diplpay-n nah-none' to={id}><CommentButton /></Link></div>
                     <div className='flex-center flex-right margin-sides-m cursor-pointer nah-none' onClick={submitF}><FavButton /></div>
                     <div className='flex-center cursor-pointer flex-right' onClick={submitN}><NahButton /></div>
                 </div>

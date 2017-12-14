@@ -563,10 +563,7 @@ a {
 .bg-highlight {
   background-color: #ff69b4; }
 
-.fav-svg {
-  fill: #b8bcc0; }
-
-.nah-svg {
+.fav-svg, .comment-svg, .nah-svg {
   fill: #b8bcc0; }
 
 textarea::-webkit-input-placeholder {
