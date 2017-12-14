@@ -85,7 +85,7 @@
       "postId": "home",
       "user": "admin",
       "avatar": "admin.jpg",
-      "text": "This is the main view, built with react and redux, for an otherwise hypothetical twitterish app. The c0de is here https://github.com/js108/postio. Still to come: routing, more views, ui animations, further design, refactoring, other stuff!",
+      "text": "This is the front end, built with react and redux, for an otherwise hypothetical twitterish app. The c0de is here https://github.com/js108/postio. Still to come: routing, more views, ui animations, further design, refactoring, other stuff!",
       "rating": 0,
       "timestamp": "Wed Mar 9 2016 03:26:00 GMT-0800 (PST)",
       "link": "http://joeschoech.com"
