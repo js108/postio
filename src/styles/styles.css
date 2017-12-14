@@ -393,11 +393,19 @@ a {
 .app-header h1 {
   margin: 0; }
 
+.comments .font-lg {
+  font-size: 1em; }
+.comments .nested-diplpay-n {
+  display: none; }
+
+.single-post .nested-diplpay-n {
+  display: none; }
+
 .post-user {
   line-height: 30px;
   display: inline-block; }
 
-.sidebar, .single-avatar {
+.sidebar {
   width: 20%;
   margin-right: 2%; }
 
@@ -424,6 +432,8 @@ a {
   display: none; }
 .nahed .padding-m {
   padding: 5px 15px; }
+.nahed .single-content {
+  width: 100%; }
 
 .padding-m {
   padding: 15px; }
@@ -519,7 +529,7 @@ a {
   height: 25px; }
 
 .font-lg {
-  font-size: 1.15em;
+  font-size: 1.25em;
   line-height: 1.5em; }
 
 .font-m {
@@ -564,10 +574,13 @@ textarea::-webkit-input-placeholder {
   color: #b8bcc0; }
 
 @media (max-width: 960px) {
-  .sidebar {
+  .sidebar, .single-avatar {
     display: none; }
 
-  .mainbar {
-    width: 100%; } }
+  .mainbar, .single-content {
+    width: 100%; }
+
+  .single-post .nested-diplpay-n {
+    display: inline; } }
 
 /*# sourceMappingURL=styles.css.map */

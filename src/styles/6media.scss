@@ -1,9 +1,16 @@
 @media (max-width: 960px) {
-	.sidebar {
+	.sidebar, .single-avatar {
 		display: none;
 	}
 
-	.mainbar {
+	.mainbar, .single-content {
 		width: 100%;
 	}
+
+	.single-post {
+
+	.nested-diplpay-n {
+		display: inline;
+	}
+}
 }

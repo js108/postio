@@ -13,12 +13,28 @@
 	}
 }
 
+.comments {
+	.font-lg {
+		font-size: 1em;
+	}
+	.nested-diplpay-n {
+		display: none;
+	}
+}
+
+.single-post {
+
+	.nested-diplpay-n {
+		display: none;
+	}
+}
+
 .post-user {
 	line-height: $l;
 	display: inline-block;
 }
 
-.sidebar, .single-avatar {
+.sidebar {
 	width: 20%;
 	margin-right: 2%;
 }
@@ -57,5 +73,8 @@
 	}
 	.padding-m {
 		padding: $xxs $m;
+	}
+	.single-content {
+		width: 100%
 	}
 }

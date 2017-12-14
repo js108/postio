@@ -14,15 +14,12 @@ const Feed = ({ posts=[], onNewRating=f=>f, postId='home'}) => {
 
     return (
         <div className='feed bg-bright'>
-            {(sortedPosts.length === 0) ?
-                <p>There's no posts.</p> :
-                sortedPosts.map(post =>
+            {sortedPosts.map(post =>
                     <FeedNode key={post.id}
                         {...post}
                         onNewRating={(id, rating) => onNewRating(post.id, rating)}
                       />
-                )
-            }
+                )}
         </div>
     )
 }

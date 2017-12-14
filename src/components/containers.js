@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 import Feed from './ui/Feed'
 import AddPostForm from './ui/AddPostForm'
 import UserProfile from './ui/UserProfile'
-import SinglePost from './ui/SinglePost'
+import SinglePostPage from './ui/SinglePostPage'
 import { newPost, ratePost } from '../actions'
 import { findById, findByPostId } from '../lib/functions'
 
@@ -51,4 +51,4 @@ export const Post = connect (
 			dispatch(ratePost(id, rating))
 		}
 	})
-	)(SinglePost)
+	)(SinglePostPage)
