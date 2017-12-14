@@ -1,3 +1,17 @@
+/*
+
+css is organized in a modified ITCSS file structure,
+and written in the atomic-css or utility css or whatever you want to call it style thats popular/controversial these days
+
+the styles are a mess i will totally refactor them at some point,
+i just started writing them as i a went i even decided to use an old school float with a clear fix for fun,
+then some of it is in flexbox,
+my lord,
+in conclusion it's better to have a plan with this stuff
+
+*/
+
+
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -496,9 +510,8 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: flex-start;
   align-content: stretch;
-  align-items: flex-start; }
+  align-self: flex-end; }
 
 .flex-center {
   align-self: center;

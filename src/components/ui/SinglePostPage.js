@@ -1,3 +1,13 @@
+/*
+
+renders a post (SinglePost, src/components/ui/SinglePost), its comments (Posts, src/components/containers), 
+and the form to add a comment (AddPost, src/components/containers),
+via being wrapped in/reciveing a whole mess of props from the Post container (src/components/containers)
+
+there's info about how this works from a redux store perspective in the readme
+
+*/
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Posts, AddPost } from '../containers'
@@ -6,7 +16,6 @@ import NahButton from './NahButton'
 import AvatarImage  from './AvatarImage'
 import SinglePost from './SinglePost'
 import { submitFav, submitNah } from '../../lib/functions'
-
 
 
 const SinglePostPage = ({id='', user='', avatar='', text='', rating=0, link='', onNewRating=f=>f, match}) => {

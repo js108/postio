@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": "post-f9005b4e-975e-433d-a646-79df172e1dbb",
+      "id": "f9005b4e-975e-433d-a646-79df172e1dbb",
       "postId": "home",
       "user": "conortripler",
       "avatar": "connor.jpg",
@@ -11,7 +11,7 @@
       "link": "https://twitter.com/conortripler/status/671106116768555008"
     },    
     {
-      "id": "post-8658c1d0-9eda-4a90-95e1-8001e8eb6036",
+      "id": "8658c1d0-9eda-4a90-95e1-8001e8eb6036",
       "postId": "home",
       "user": "UtilityLimb",
       "avatar": "bandit.png",
@@ -21,7 +21,7 @@
       "link": "https://twitter.com/utilitylimb/status/126780301211992064"
     },
     {
-      "id": "post-58d9caee-6ea6-4d7b-9984-65b145031979",
+      "id": "58d9caee-6ea6-4d7b-9984-65b145031979",
       "postId": "home",
       "user": "vineyille",
       "avatar": "vineyille.jpeg",
@@ -31,7 +31,7 @@
       "link": "https://twitter.com/vineyille/status/580036338164039681"
     },
     {
-      "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f95",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f95",
       "postId": "home",
       "user": "dril",
       "avatar": "dril.jpg",
@@ -41,7 +41,7 @@
       "link": "https://twitter.com/dril/status/514845232509501440"
     },
     {
-      "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f96",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f96",
       "postId": "home",
       "user": "tree_bro",
       "avatar": "treebro.jpg",
@@ -51,7 +51,7 @@
       "link": "https://twitter.com/tree_bro/status/79444819902074880"
     },
     {
-      "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f97",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f97",
       "postId": "home",
       "user": "tricialockwood",
       "avatar": "lockwood.jpg",
@@ -61,7 +61,7 @@
       "link": "https://twitter.com/TriciaLockwood"
     },
     {
-      "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f98",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f98",
       "postId": "home",
       "user": "cool_pond",
       "avatar": "coolpond.jpeg",
@@ -71,7 +71,7 @@
       "link": "https://twitter.com/cool_pond/status/180504769931120640"
     },
     {
-      "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f99",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f99",
       "postId": "home",
       "user": "degg",
       "avatar": "degg.jpg",
@@ -81,7 +81,7 @@
       "link": "https://twitter.com/degg/status/267134403451441152"
     },
     {
-      "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f10",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f10",
       "postId": "home",
       "user": "admin",
       "avatar": "admin.jpg",
@@ -91,7 +91,7 @@
       "link": "http://joeschoech.com"
     },
     {
-      "id": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f11",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f11",
       "postId": "home",
       "user": "admin",
       "avatar": "admin.jpg",
@@ -101,8 +101,8 @@
       "link": "http://joeschoech.com"
     },
     {
-      "id": "comment-8658c1d0-9eda-4a90-95e1-8001e8eb60361",
-      "postId": "post-8658c1d0-9eda-4a90-95e1-8001e8eb6036",
+      "id": "8658c1d0-9eda-4a90-95e1-8001e8eb60361c",
+      "postId": "8658c1d0-9eda-4a90-95e1-8001e8eb6036",
       "user": "egg man",
       "avatar": "egg-blue.png",
       "text": "did you know ruby and python are both programming laguages",
@@ -110,8 +110,8 @@
       "timestamp": "Sat Mar 12 2016 16:12:09 GMT-0800 (PST)"
     },
     {
-      "id": "comment-8658c1d0-9eda-4a90-95e1-8001e8eb60362",
-      "postId": "post-8658c1d0-9eda-4a90-95e1-8001e8eb6036",
+      "id": "8658c1d0-9eda-4a90-95e1-8001e8eb60362c",
+      "postId": "8658c1d0-9eda-4a90-95e1-8001e8eb6036",
       "user": "egg man",
       "avatar": "egg-blue.png",
       "text": "also ruby's modules are named gems haha",
@@ -119,8 +119,8 @@
       "timestamp": "Sat Mar 12 2016 16:12:10 GMT-0800 (PST)"
     },
     {
-      "id": "comment-8658c1d0-9eda-4a90-95e1-8001e8eb60363",
-      "postId": "post-8658c1d0-9eda-4a90-95e1-8001e8eb6036",
+      "id": "8658c1d0-9eda-4a90-95e1-8001e8eb60363c",
+      "postId": "8658c1d0-9eda-4a90-95e1-8001e8eb6036",
       "user": "EGG_GUY",
       "avatar": "egg-yellow.png",
       "text": "HA I CAN CONTROL THE SNAKE",
@@ -128,8 +128,8 @@
       "timestamp": "Sat Mar 12 2016 16:12:11 GMT-0800 (PST)"
     },
     {
-      "id": "comment-f9005b4e-975e-433d-a646-79df172e1dbb4",
-      "postId": "post-f9005b4e-975e-433d-a646-79df172e1dbb",
+      "id": "f9005b4e-975e-433d-a646-79df172e1dbb4c",
+      "postId": "f9005b4e-975e-433d-a646-79df172e1dbb",
       "user": "egg rando",
       "avatar": "egg-yellow.png",
       "text": "just like a damn selfer lol",
@@ -137,8 +137,8 @@
       "timestamp": "Fri Mar 11 2016 12:00:00 GMT-0800 (PST)"
     },
     {
-      "id": "comment-f9005b4e-975e-433d-a646-79df172e1dbb5",
-      "postId": "post-f9005b4e-975e-433d-a646-79df172e1dbb",
+      "id": "f9005b4e-975e-433d-a646-79df172e1dbb5c",
+      "postId": "f9005b4e-975e-433d-a646-79df172e1dbb",
       "user": "egg man",
       "avatar": "egg-blue.png",
       "text": "oil painting is indeed laborious!",
@@ -146,8 +146,8 @@
       "timestamp": "Fri Mar 11 2016 12:00:01 GMT-0800 (PST)"
     },
     {
-      "id": "comment-f9005b4e-975e-433d-a646-79df172e1dbb6",
-      "postId": "post-f9005b4e-975e-433d-a646-79df172e1dbb",
+      "id": "f9005b4e-975e-433d-a646-79df172e1dbb6c",
+      "postId": "f9005b4e-975e-433d-a646-79df172e1dbb",
       "user": "egg producer",
       "avatar": "egg-yellow.png",
       "text": "cheap beats check it out email in the bio",
@@ -155,8 +155,8 @@
       "timestamp": "Fri Mar 11 2016 12:00:02 GMT-0800 (PST)"
     },
     {
-      "id": "comment-58d9caee-6ea6-4d7b-9984-65b1450319797",
-      "postId": "post-58d9caee-6ea6-4d7b-9984-65b145031979",
+      "id": "58d9caee-6ea6-4d7b-9984-65b1450319797c",
+      "postId": "58d9caee-6ea6-4d7b-9984-65b145031979",
       "user": "egg fan",
       "avatar": "egg-green.png",
       "text": "chappie great movie check it out if you havent seen it",
@@ -164,8 +164,8 @@
       "timestamp": "Thu Mar 10 2016 01:11:12 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f958",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f95",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f958c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f95",
       "user": "egg celeb news",
       "avatar": "egg-orange.png",
       "text": "get all the latest celeb news at egg-celeb-news.co !!!",
@@ -173,8 +173,8 @@
       "timestamp": "Wed Mar 9 2016 03:26:06 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f959",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f95",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f959c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f95",
       "user": "egg egg",
       "avatar": "egg-yellow.png",
       "text": "egg egg egg",
@@ -182,8 +182,8 @@
       "timestamp": "Wed Mar 9 2016 03:26:07 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f950",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f95",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f950c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f95",
       "user": "egg guy",
       "avatar": "egg-blue.png",
       "text": "to which celebs do u refer there are many celebs",
@@ -191,8 +191,8 @@
       "timestamp": "Wed Mar 9 2016 03:26:08 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f951",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f95",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f951c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f95",
       "user": "egg guy",
       "avatar": "egg-blue.png",
       "text": "some of my prefered celebs are egg egg egg egg egg",
@@ -200,8 +200,8 @@
       "timestamp": "Wed Mar 9 2016 03:26:09 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f952",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f95",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f952c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f95",
       "user": "egg brand",
       "avatar": "egg-green.png",
       "text": "the egg is relatable",
@@ -209,8 +209,8 @@
       "timestamp": "Wed Mar 9 2016 03:26:10 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f963",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f96",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f963c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f96",
       "user": "egg bro",
       "avatar": "egg-green.png",
       "text": "first",
@@ -218,8 +218,8 @@
       "timestamp": "Wed Mar 9 2016 03:26:05 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f964",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f96",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f964c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f96",
       "user": "egg pedant",
       "avatar": "egg-yellow.png",
       "text": "this post has numerous spelling errors",
@@ -227,8 +227,8 @@
       "timestamp": "Wed Mar 9 2016 03:26:06 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f975",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f97",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f975c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f97",
       "user": "egg guy",
       "avatar": "egg-blue.png",
       "text": "not my favorite style of jazz tbqh i prefer beebop or big band",
@@ -236,8 +236,8 @@
       "timestamp": "Wed Mar 9 2016 03:26:04 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f976",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f97",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f976c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f97",
       "user": "egg guy",
       "avatar": "egg-blue.png",
       "text": "free jazz on occasion can be good too, its an aquired taste",
@@ -245,8 +245,8 @@
       "timestamp": "Wed Mar 9 2016 03:26:05 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f977",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f97",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f977c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f97",
       "user": "egg noiser",
       "avatar": "egg-orange.png",
       "text": "doopy doopy dooo egg egg egggggg",
@@ -254,8 +254,8 @@
       "timestamp": "Wed Mar 9 2016 03:26:06 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f988",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f98",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f988c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f98",
       "user": "egg noob",
       "avatar": "egg-green.png",
       "text": "n",
@@ -263,8 +263,8 @@
       "timestamp": "Wed Mar 9 2016 03:26:03 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f989",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f98",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f989c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f98",
       "user": "egg",
       "avatar": "egg-blue.png",
       "text": "ha how embarassing for the son for not being able to kickflip",
@@ -272,8 +272,8 @@
       "timestamp": "Wed Mar 9 2016 03:26:04 GMT-0800 (PST)"
     },
     {
-      "id": "comment-a5685c39-6bdc-4727-9188-6c9a00bf7f990",
-      "postId": "post-a5685c39-6bdc-4727-9188-6c9a00bf7f99",
+      "id": "a5685c39-6bdc-4727-9188-6c9a00bf7f990c",
+      "postId": "a5685c39-6bdc-4727-9188-6c9a00bf7f99",
       "user": "egg friend",
       "avatar": "egg-yellow.png",
       "text": "hey",

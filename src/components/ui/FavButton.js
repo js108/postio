@@ -1,3 +1,9 @@
+/*
+
+an svg written as a component in order to be able to manipulate its atributes with css
+
+*/
+
 import React from 'react'
 
 const FavButton = () => {

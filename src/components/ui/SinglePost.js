@@ -1,6 +1,13 @@
+/*
+
+renders a single post and has post rating functionality
+
+ill prob try to move this functionality over to FeedNode for maximum modularity/reusability
+
+*/
+
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Posts, AddPost } from '../containers'
 import FavButton from './FavButton'
 import NahButton from './NahButton'
 import AvatarImage  from './AvatarImage'
@@ -12,6 +19,7 @@ const SinglePost = ({id='', user='', avatar='', text='', rating=0, link='', onNe
 
 	const submitF = () => submitFav(rating, id, onNewRating)
 	const submitN = () => submitNah(rating, id, onNewRating)
+
     return (
         <section id={id} className='post single-post'>
         

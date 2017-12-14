@@ -1,7 +1,17 @@
+/*
+
+the form for posting your good posts to the app
+
+it receives prop from/is wrapped in the AddPost container (src/components/containers.js),
+and sends data to the state using the submitValue function via the AddPost container
+
+*/
+
+
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const AddPostForm = ({user='', avatar='', onNewPost=f=>f, onSubmit=f=>f, postId}) => {
+const AddPostForm = ({user='', avatar='', postId, onNewPost=f=>f, onSubmit=f=>f}) => {
 
     let _text
 
@@ -29,8 +39,11 @@ const AddPostForm = ({user='', avatar='', onNewPost=f=>f, onSubmit=f=>f, postId}
 }
 
 AddPostForm.propTypes = {
-    onNewPost: PropTypes.func
-
+    user: PropTypes.string,
+    avatar: PropTypes.string,
+    postId: PropTypes.string,
+    onNewPost: PropTypes.func,
+    onSubmit: PropTypes.func
 }
 
 export default AddPostForm

@@ -1,10 +1,23 @@
+/*
+
+these are the container components where redux communicates with all the stateless react components using redux's connect function
+
+connect has two methods: state which passes state to react, 
+and dispatch which receives data from react and passes it to the store via actions and reducers
+
+the components defined here are kinda the parent components for the whole app, 
+then their children are passed as props at the end of each declaration,
+eg AddPostForm is the child of AddPost
+
+*/
+
 import { connect } from 'react-redux'
 import Feed from './ui/Feed'
 import AddPostForm from './ui/AddPostForm'
 import UserProfile from './ui/UserProfile'
 import SinglePostPage from './ui/SinglePostPage'
 import { newPost, ratePost } from '../actions'
-import { findById, findByPostId } from '../lib/functions'
+import { findById } from '../lib/functions'
 
 
 export const AddPost = connect(

@@ -1,3 +1,9 @@
+/*
+
+The template which renders its beloved descendants via react-router's children function
+
+*/
+
 import React from 'react'
 import Header from './Header'
 

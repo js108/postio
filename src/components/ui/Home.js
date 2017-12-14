@@ -1,3 +1,9 @@
+/*
+
+The Profile, AddPost, and Posts containers (src/components/containers) are combined to create the home view
+
+*/
+
 import React from 'react'
 import { Profile, AddPost, Posts } from '../containers'
 

@@ -1,3 +1,12 @@
+/*
+
+a single post in the feed
+
+it receives a ton of props from the Feed component (src/components/ui/Feed),
+and has post rating functionality
+
+*/
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import FavButton from './FavButton'
