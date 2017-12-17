@@ -2,12 +2,12 @@
 
 The humble header which is part of the PageTemplate (src/components/ui/PageTemplate.js)
 
-I need to react-routerize that link
-
 */
 
 
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const Header  = () => {
     return (
@@ -15,7 +15,7 @@ const Header  = () => {
             <header className='app-header'>
                 <div className='center max-width'>
                     <div className='margin-sides-m'>
-                        <a href='/'><h1>Postio</h1></a>
+                        <Link to='/'><h1>Postio</h1></Link>
                     </div>
                 </div>
             </header>
