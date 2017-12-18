@@ -21,15 +21,15 @@ import { submitFav, submitNah } from '../../lib/functions'
 const SinglePostPage = ({id='', user='', avatar='', text='', rating=0, link='', onNewRating=f=>f, match}) => {
 
     return (
-        <main className='single-post-page'>
-        
-           <FeedNode id={id} user={user} avatar={avatar} text={text} rating={rating} link={link} onNewRating={onNewRating} />
-
-            <div className='comments'>
+        <div className='grid-2'>
+            <div className='single-post grid-2--full'>
+                <FeedNode id={id} user={user} avatar={avatar} text={text} rating={rating} link={link} onNewRating={onNewRating} />
+            </div>
+            <div className='grid-2--part'>
 	            <Posts postId={match.params.id} />
 	            <AddPost postId={match.params.id} />
             </div>
-        </main>
+        </div>
     )
 
 }

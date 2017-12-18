@@ -22,19 +22,13 @@ const FeedNode = ({id='', user='', avatar='', text='', rating=0, link='', timest
     const submitN = () => submitNah(rating, id, onNewRating)
 
     return (
-        <section id={id} className='post border-b'>
-            <div className='padding-m'>
-                <div className='post-text font-lg nah-none'>
-                    {text}   
-                </div>
-                <div className='margin-t-s font-sm'>
-                    <div className='height-ml block nah-none'><AvatarImage avatarName={avatar} /></div>
-                    <div className='margin-sides-xxs flex-center flex-grow nah-none'><a href={link}>{user}</a></div>
-                    <div className='cursor-pointer nah-none'><Link className='nested-diplpay-n nah-none' to={id}><CommentButton /></Link></div>
-                    <div className='cursor-pointer nah-none' onClick={submitF}><FavButton /></div>
-                    <div className='cursor-pointer' onClick={submitN}><NahButton /></div>
-                </div>
-            </div>
+        <section id={id} className='post border-b bg-bright padding-m'>
+            <div className='post-text font-lg nah-none'>{text}</div>
+            <div className='height-ml block nah-none'><AvatarImage avatarName={avatar} /></div>
+            <div className='margin-sides-xxs nah-none'><a href={link}>{user}</a></div>
+            <div className='cursor-pointer nah-none'><Link to={id}><CommentButton /></Link></div>
+            <div className='cursor-pointer nah-none' onClick={submitF}><FavButton /></div>
+            <div className='cursor-pointer' onClick={submitN}><NahButton /></div>
         </section>
     )
 

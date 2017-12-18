@@ -10,7 +10,7 @@ import { Profile, AddPost, Posts } from '../containers'
 
 const Home = () => {
     return (
-        <div className='jsx-needs-a-wrapper-dude'>
+        <div className='grid-1'>
             <div className=''>
                 <Profile />
             </div>

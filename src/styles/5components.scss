@@ -66,6 +66,35 @@
 
 // posistioning: grid, centering, widths, heights, etc
 
+.grid-1 {
+	display: grid;
+	grid-template-columns: 3fr 9fr;
+	grid-column-gap: 20px;
+}
+
+.grid-2 {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	align-items: end;
+}
+
+.grid-s {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	align-items: end;
+}
+
+.grid-2--full {
+	grid-column-start: 1;
+	grid-column-end: 13;
+
+}
+
+.grid-2--part {
+	grid-column-start: 3; 
+	grid-column-end: 13;
+}
+
 
 .block {
 	display: block;
