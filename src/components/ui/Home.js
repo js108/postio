@@ -11,14 +11,13 @@ import { Profile, AddPost, Posts } from '../containers'
 const Home = () => {
     return (
         <div className='jsx-needs-a-wrapper-dude'>
-            <div className='sidebar float-l'>
+            <div className=''>
                 <Profile />
             </div>
-            <div className='mainbar float-l'>
+            <div className=''>
                 <AddPost />
                 <Posts />
-            </div>
-            <div className='clearfix'></div> 
+            </div> 
         </div>
     )
 }

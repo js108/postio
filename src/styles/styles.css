@@ -1,17 +1,3 @@
-/*
-
-css is organized in a modified ITCSS file structure,
-and written in the atomic-css or utility css or whatever you want to call it style thats popular/controversial these days
-
-the styles are a mess i will totally refactor them at some point,
-i just started writing them as i a went i even decided to use an old school float with a clear fix for fun,
-then some of it is in flexbox,
-my lord,
-in conclusion it's better to have a plan with this stuff
-
-*/
-
-
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -412,28 +398,9 @@ a {
 .comments .nested-diplpay-n {
   display: none; }
 
-.single-post .nested-diplpay-n {
-  display: none; }
-
 .post-user {
   line-height: 30px;
   display: inline-block; }
-
-.sidebar {
-  width: 20%;
-  margin-right: 2%; }
-
-.mainbar, .single-content {
-  width: 78%; }
-
-.single-avatar {
-  width: 10%;
-  margin-right: 2%; }
-  .single-avatar img {
-    width: 100%; }
-
-.single-content {
-  width: 88%; }
 
 .faved .fav-svg {
   fill: #ff69b4; }
@@ -446,8 +413,6 @@ a {
   display: none; }
 .nahed .padding-m {
   padding: 5px 15px; }
-.nahed .single-content {
-  width: 100%; }
 
 .padding-m {
   padding: 15px; }
@@ -496,35 +461,6 @@ a {
 
 .corners {
   border-radius: 5px; }
-
-.float-r {
-  float: right; }
-
-.float-l {
-  float: left; }
-
-.clearfix {
-  clear: both; }
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: stretch;
-  align-self: flex-end; }
-
-.flex-center {
-  align-self: center;
-  flex: 0 1 auto; }
-
-.flex-bottom {
-  align-self: flex-end; }
-
-.flex-right {
-  margin-left: auto; }
-
-.flex-grow {
-  flex-grow: 2; }
 
 .block {
   display: block; }
@@ -582,15 +518,5 @@ a {
 textarea::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #b8bcc0; }
-
-@media (max-width: 960px) {
-  .sidebar, .single-avatar {
-    display: none; }
-
-  .mainbar, .single-content {
-    width: 100%; }
-
-  .single-post .nested-diplpay-n {
-    display: inline; } }
 
 /*# sourceMappingURL=styles.css.map */

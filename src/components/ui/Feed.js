@@ -28,10 +28,12 @@ const Feed = ({ posts=[], onNewRating=f=>f, postId='home'}) => {
     return (
         <div className='feed bg-bright'>
             {sortedPosts.map(post =>
+                    <section className='node-wrapper'>
                     <FeedNode key={post.id}
                         {...post}
                         onNewRating={(id, rating) => onNewRating(post.id, rating)}
                       />
+                    </section>
                 )}
         </div>
     )

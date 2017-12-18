@@ -14,22 +14,22 @@ import { Posts, AddPost } from '../containers'
 import FavButton from './FavButton'
 import NahButton from './NahButton'
 import AvatarImage  from './AvatarImage'
-import SinglePost from './SinglePost'
+import FeedNode from './FeedNode'
 import { submitFav, submitNah } from '../../lib/functions'
 
 
 const SinglePostPage = ({id='', user='', avatar='', text='', rating=0, link='', onNewRating=f=>f, match}) => {
 
     return (
-        <section className='single-post-page'>
+        <main className='single-post-page'>
         
-           <SinglePost id={id} user={user} avatar={avatar} text={text} rating={rating} link={link} onNewRating={onNewRating} />
+           <FeedNode id={id} user={user} avatar={avatar} text={text} rating={rating} link={link} onNewRating={onNewRating} />
 
-            <div className='single-content float-r comments'>
+            <div className='comments'>
 	            <Posts postId={match.params.id} />
 	            <AddPost postId={match.params.id} />
             </div>
-        </section>
+        </main>
     )
 
 }

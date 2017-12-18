@@ -64,44 +64,8 @@
 }
 
 
-// posistioning: float, flex, centering, widths, heights, etc
+// posistioning: grid, centering, widths, heights, etc
 
-.float-r {
-	float: right;
-}
-
-.float-l {
-	float: left;
-}
-
-.clearfix {
-	clear: both;
-}
-
-.flex-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	align-content: stretch;
-	align-self: flex-end;
-}
-
-.flex-center {
-	align-self: center;
-	flex: 0 1 auto;
-}
-
-.flex-bottom {
-	align-self: flex-end;
-}
-
-.flex-right {
-	margin-left: auto;
-}
-
-.flex-grow {
-	flex-grow: 2;
-}
 
 .block {
 	display: block;
