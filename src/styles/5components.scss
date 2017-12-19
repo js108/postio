@@ -4,6 +4,10 @@
 	padding: $m;
 }
 
+.padding-m-r {
+	padding-right: $m;
+}
+
 .padding-xs {
 	padding: $xs;
 }
@@ -27,6 +31,11 @@
 .margin-r-s {
 	margin-right: $s;
 }
+
+.margin-l-m {
+	margin-left: $m;
+}
+
 
 .margin-sides-xxs {
 	margin-left: $xxs;
@@ -64,40 +73,14 @@
 }
 
 
-// posistioning: grid, centering, widths, heights, etc
-
-.grid-1 {
-	display: grid;
-	grid-template-columns: 3fr 9fr;
-	grid-column-gap: 20px;
-}
-
-.grid-2 {
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	align-items: end;
-}
-
-.grid-s {
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	align-items: end;
-}
-
-.grid-2--full {
-	grid-column-start: 1;
-	grid-column-end: 13;
-
-}
-
-.grid-2--part {
-	grid-column-start: 3; 
-	grid-column-end: 13;
-}
-
+// posistioning: centering, widths, heights, etc
 
 .block {
 	display: block;
+}
+
+.i-block {
+	display: inline-block;
 }
 
 .center {
@@ -110,6 +93,10 @@
 
 .width-full {
 	width: 100%;
+}
+
+.height-full {
+	height: 100%;
 }
 
 .height-ml {

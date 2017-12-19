@@ -11,10 +11,10 @@ import { Profile, AddPost, Posts } from '../containers'
 const Home = () => {
     return (
         <div className='grid-1'>
-            <div className=''>
+            <div>
                 <Profile />
             </div>
-            <div className=''>
+            <div>
                 <AddPost />
                 <Posts />
             </div> 

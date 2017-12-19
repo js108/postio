@@ -13,8 +13,16 @@
 	}
 }
 
-.single-post {
 
+.single-post-page {
+	.single-none {
+		display: none;
+	}
+	.feed {
+		.font-lg {
+			font-size: 1.2em;
+		}
+	}
 }
 
 .comments {

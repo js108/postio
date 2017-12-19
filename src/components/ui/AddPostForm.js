@@ -5,6 +5,8 @@ the form for posting your good posts to the app
 it receives props from/is wrapped in the AddPost container (src/components/containers.js),
 and sends data to the state using the submitValue function via the AddPost container
 
+submitValue checks if its recieved a postId, if not its assigns home, which makes the post appear on the home page
+
 */
 
 
@@ -23,15 +25,15 @@ const AddPostForm = ({user='', avatar='', postId, onNewPost=f=>f, onSubmit=f=>f}
     }
 
     return (
-        <section className='padding-m bg-bright border-b'>
-            <form className='' onSubmit={submitValue}>
+        <section className='padding-m bg-bright'>
+            <form className='grid-3' onSubmit={submitValue}>
                 <textarea id='post-form' maxLength='140' rows='3' 
-                    className='padding-xsfont-lg margin-r-s border-bright corners' 
+                    className='grid-l font-lg border-bright corners margin-r-s' 
                     ref={input => _text = input}
                     type='text'
                     placeholder="write something in a maximum of 140 characters why don't you" required>
                 </textarea>
-                <button type='submit' className='padding-m bg-highlight color-bright border-0 cursor-pointer font-m font-bold'>POST</button>
+                <button type='submit' className='grid-sm padding-m bg-highlight color-bright border-0 cursor-pointer font-m font-bold'>POST</button>
             </form>
         </section>
     )

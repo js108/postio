@@ -1,6 +1,6 @@
 /*
 
-reducers receive objects from actions (src/actions.js) via containers (src/components/containers.js) and pass them to the redux store
+reducers receive actions (src/actions.js) via containers (src/components/containers.js) and update the redux store
 
 based on an object's type they use switch logic to determine what to update
 

@@ -1,6 +1,6 @@
 /*
 
-renders a post (SinglePost, src/components/ui/SinglePost.js), its comments (Posts, src/components/containers.js), 
+renders a post (FeedNode, src/components/ui/FeedNode.js), its comments (Posts, src/components/containers.js), 
 and the form to add a comment (AddPost, src/components/containers.js),
 via being wrapped in/reciveing a whole mess of props from the Post container (src/components/containers.js)
 
@@ -11,21 +11,16 @@ there's info about how this works from a redux store perspective in the readme
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Posts, AddPost } from '../containers'
-import FavButton from './FavButton'
-import NahButton from './NahButton'
-import AvatarImage  from './AvatarImage'
 import FeedNode from './FeedNode'
-import { submitFav, submitNah } from '../../lib/functions'
-
 
 const SinglePostPage = ({id='', user='', avatar='', text='', rating=0, link='', onNewRating=f=>f, match}) => {
 
     return (
-        <div className='grid-2'>
-            <div className='single-post grid-2--full'>
+        <div className='grid-2 single-post-page'>
+            <div className='single-post grid-full'>
                 <FeedNode id={id} user={user} avatar={avatar} text={text} rating={rating} link={link} onNewRating={onNewRating} />
             </div>
-            <div className='grid-2--part'>
+            <div className='grid-part'>
 	            <Posts postId={match.params.id} />
 	            <AddPost postId={match.params.id} />
             </div>

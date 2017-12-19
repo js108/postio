@@ -46,7 +46,6 @@ Posts and comments are differentiated by their postId: if the postId is "home" t
 Components are pretty well commented. If you want to take a look the app lives at src/index.js. The next step would be to check out src/components/App.js. Then you could look at all the redux stuff in src/store/storeFactory.js, src/store/reducers.js, src/actions.js, src/components/containers.js. And all the stateless react components are in src/components/ui.
 
 ## What I want to do next
-First I really need to refactor the css. You can check out my thoughts on the topic in src/styles/styles.css. Things got out of hand. Please don't judge me.
 
 I'd like to have state persist in local storage.
 

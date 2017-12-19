@@ -22,13 +22,13 @@ const FeedNode = ({id='', user='', avatar='', text='', rating=0, link='', timest
     const submitN = () => submitNah(rating, id, onNewRating)
 
     return (
-        <section id={id} className='post border-b bg-bright padding-m'>
-            <div className='post-text font-lg nah-none'>{text}</div>
-            <div className='height-ml block nah-none'><AvatarImage avatarName={avatar} /></div>
-            <div className='margin-sides-xxs nah-none'><a href={link}>{user}</a></div>
-            <div className='cursor-pointer nah-none'><Link to={id}><CommentButton /></Link></div>
-            <div className='cursor-pointer nah-none' onClick={submitF}><FavButton /></div>
-            <div className='cursor-pointer' onClick={submitN}><NahButton /></div>
+        <section id={id} className='grid-3 border-b bg-bright padding-m'>
+            <div className='grid-full post-text font-lg nah-none'>{text}</div>
+            <div className='grid-chunk height-ml block nah-none grid-center'><AvatarImage avatarName={avatar} /></div>
+            <div className='nah-none grid-center'><a href={link}>{user}</a></div>
+            <div className='cursor-pointer nah-none grid-center single-none grid-last-3'><Link to={id}><CommentButton /></Link></div>
+            <div className='cursor-pointer nah-none grid-center grid-last-2' onClick={submitF}><FavButton /></div>
+            <div className='cursor-pointer grid-center grid-last' onClick={submitN}><NahButton /></div>
         </section>
     )
 
