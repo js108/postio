@@ -33,7 +33,7 @@ const AddPostForm = ({user='', avatar='', postId, onNewPost=f=>f, onSubmit=f=>f}
                     type='text'
                     placeholder="write something in a maximum of 140 characters why don't you" required>
                 </textarea>
-                <button type='submit' className='grid-sm padding-m bg-highlight color-bright border-0 cursor-pointer font-m font-bold'>POST</button>
+                <button type='submit' className='grid-sm padding-m bg-highlight color-bright border-0 cursor-pointer font-m font-bold corners'>POST</button>
             </form>
         </section>
     )

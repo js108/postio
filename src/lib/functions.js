@@ -18,6 +18,7 @@ export const findById = compose(
 )
 
 export const log = (array, postId) => console.log(array, postId)
+
 export const putArrayInObject = array => { { posts: array } }
 
 export const filterArrayByPostId = (array, postId) => {
@@ -55,6 +56,7 @@ export const removeNahStyles = (id) => {
 }
 
 export const submitFav = (rating, id, onNewRating) => {
+    console.log(rating)
     switch (rating) {
         case 0:
             rating = 1,
@@ -107,3 +109,14 @@ export const submitNah = (rating, id, onNewRating) => {
     }
     //e.preventDefault()
 }
+
+export const setRating = (rating, id) => {
+        if (rating === 1) {
+            addFavStyles(id)
+        }
+        else if (rating === 2) {
+            addNahStyles(id)
+        }
+        else {
+        }
+    }

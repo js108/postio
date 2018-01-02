@@ -35,7 +35,6 @@ export const AddPost = connect(
 )(AddPostForm)
 
 export const Posts = connect(
-
 	 state =>
     ({
 		posts: state.posts
@@ -65,4 +64,4 @@ export const Post = connect (
 			dispatch(ratePost(id, rating))
 		}
 	})
-	)(SinglePostPage)
+)(SinglePostPage)

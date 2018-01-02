@@ -38,7 +38,7 @@
 	grid-column-start: 11; 
 	grid-column-end: 13;
 	grid-row-start: 2; 
-	grid-rwo-end: 3;
+	grid-row-end: 3;
 }
 
 
@@ -69,8 +69,6 @@
 }
 
 .single-post {
-	.grid-s {
-		grid-template-columns: 155px repeat(8, 1fr) repeat(3, 45px);
 		.grid-chunk {
 			grid-column-start: 1;
 			grid-column-end: 2;
@@ -95,6 +93,5 @@
 		.grid-center {
 			align-self: end;
 		}
-	}
 }
 

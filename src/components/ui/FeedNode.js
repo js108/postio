@@ -14,15 +14,16 @@ import NahButton from './NahButton'
 import CommentButton from './CommentButton'
 import AvatarImage  from './AvatarImage'
 import { Link } from 'react-router-dom'
-import { submitFav, submitNah } from '../../lib/functions'
+import { submitFav, submitNah, setRating } from '../../lib/functions'
 
 const FeedNode = ({id='', user='', avatar='', text='', rating=0, link='', timestamp='', onNewRating=f=>f}) => {
 
     const submitF = () => submitFav(rating, id, onNewRating)
     const submitN = () => submitNah(rating, id, onNewRating)
+    const setR = () => setRating(rating, id)
 
     return (
-        <section id={id} className='grid-3 border-b bg-bright padding-m'>
+        <section id={id} onLoad={setR} className='grid-3 border-b bg-bright padding-m'>
             <div className='grid-full post-text font-lg nah-none'>{text}</div>
             <div className='grid-chunk height-ml block nah-none grid-center'><AvatarImage avatarName={avatar} /></div>
             <div className='nah-none grid-center'><a href={link}>{user}</a></div>
