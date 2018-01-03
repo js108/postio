@@ -38,3 +38,38 @@
 	}
 
 }
+
+@media (min-width: 600px) {
+	
+	.single-post {
+		.feed-node.grid {
+			display: grid;
+			grid-template-columns: repeat(10, 1fr) repeat(2, 45px);;
+			grid-column-gap: 0;
+			grid-row-gap: 0;
+			.grid--avatar {
+				grid-column-start: 1;
+				grid-column-end: 3;
+				grid-row-start: 1;
+				grid-row-end: 2;
+				align-self: auto;
+				img {
+						display: block;
+						width: 80%;
+						height: auto;
+						max-width: none;
+		    			max-height: none;
+					}
+			}
+			.grid--avatar.height-ml {
+				height: 100%;
+				width: 100%;
+			}
+			.grid--full-width {
+				grid-column-start: 3;
+				grid-column-end: 13;
+			}
+		}
+	}
+
+}

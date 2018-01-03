@@ -26,7 +26,7 @@ const FeedNode = ({id='', user='', avatar='', text='', rating=0, link='', timest
         <section id={id} onLoad={setR} className='feed-node grid border-b bg-bright padding-m'>
             <div className='grid--full-width post-text font-lg nah-none'>{text}</div>
             <div className='grid--avatar height-ml block nah-none'><AvatarImage avatarName={avatar} /></div>
-            <div className='nah-none grid--center'><a href={link}>{user}</a></div>
+            <div className='grid--name nah-none grid--center'><a href={link}>{user}</a></div>
             <div className='grid--last-3 grid--center cursor-pointer nah-none single-none'><Link to={id}><CommentButton /></Link></div>
             <div className='grid--last-2 grid--center cursor-pointer nah-none' onClick={submitF}><FavButton /></div>
             <div className='grid--last grid--center cursor-pointer' onClick={submitN}><NahButton /></div>
