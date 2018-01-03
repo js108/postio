@@ -13,16 +13,16 @@ import PropTypes from 'prop-types'
 import { Posts, AddPost } from '../containers'
 import FeedNode from './FeedNode'
 
-const SinglePostPage = ({id='', user='', avatar='', text='', rating=0, link='', onNewRating=f=>f, match}) => {
+const SinglePostPage = ({id='', user='', avatar='', text='', rating=0, link='', onNewRating=f=>f}) => {
 
     return (
-        <div className='grid-2 single-post-page'>
-            <div className='single-post grid-full'>
+        <div className='single-post-page grid'>
+            <div className='single-post grid--full-width'>
                 <FeedNode id={id} user={user} avatar={avatar} text={text} rating={rating} link={link} onNewRating={onNewRating} />
             </div>
-            <div className='grid-part'>
-	            <Posts postId={match.params.id} />
-	            <AddPost postId={match.params.id} />
+            <div className='grid--r'>
+	            <Posts postId={id} />
+	            <AddPost postId={id} />
             </div>
         </div>
     )

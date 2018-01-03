@@ -20,14 +20,12 @@ import SinglePostPage from './ui/SinglePostPage'
 import { newPost, ratePost } from '../actions'
 import { findById } from '../lib/functions'
 
-
 export const AddPost = connect(
 	state => ({
 		user: state.user.name,
 		avatar: state.user.avatar
 	}),
-	dispatch =>
-	({
+	dispatch => ({
 		onNewPost(postId, user, avatar, text) {
                 dispatch(newPost(postId, user, avatar, text))
         }
@@ -35,12 +33,10 @@ export const AddPost = connect(
 )(AddPostForm)
 
 export const Posts = connect(
-	 state =>
-    ({
+	state => ({
 		posts: state.posts
     }),
-	dispatch =>
-	({
+	dispatch => ({
 		onNewRating(id, rating) {
 			dispatch(ratePost(id, rating))
 		}
@@ -48,18 +44,18 @@ export const Posts = connect(
 )(Feed)
 
 export const Profile = connect(
-	state =>
-	({
+	state => ({
 		name: state.user.name,
 		avatar: state.user.avatar
 	}),
-		null
+	null
 )(UserProfile)
 
 export const Post = connect (
-	(state, props) => findById(state.posts, props.match.params.id),
-	dispatch =>
-	({
+	(state, props) => findById(
+		state.posts, props.match.params.id
+	),
+	dispatch => ({
 		onNewRating(id, rating) {
 			dispatch(ratePost(id, rating))
 		}

@@ -12,7 +12,7 @@ import AvatarImage  from './AvatarImage'
 
 const UserProfile = ({name='', avatar=''}) => {
     return (
-        <section className='bg-bright padding-m'>
+        <section className='bg-bright padding-m height-full'>
             <AvatarImage avatarName={avatar} />
             {name}
         </section>

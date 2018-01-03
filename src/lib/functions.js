@@ -17,21 +17,6 @@ export const findById = compose(
     filterArrayById
 )
 
-export const log = (array, postId) => console.log(array, postId)
-
-export const putArrayInObject = array => { { posts: array } }
-
-export const filterArrayByPostId = (array, postId) => {
-    array.filter(item => item.postId === postId)
-}
-
-export const findByPostId = compose(
-    /*putArrayInObject,
-    filterArrayByPostId*/
-    log
-)
-
-
 export const addFavStyles = (id) => {
     const post = document.getElementById(id);
     post.classList.add('faved');

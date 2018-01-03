@@ -1,6 +1,6 @@
 /*
 
-The template which renders its beloved descendants via react-router's children function
+The template which renders its beloved descendants via react's children function
 
 */
 

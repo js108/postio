@@ -23,13 +23,13 @@ const FeedNode = ({id='', user='', avatar='', text='', rating=0, link='', timest
     const setR = () => setRating(rating, id)
 
     return (
-        <section id={id} onLoad={setR} className='grid-3 border-b bg-bright padding-m'>
-            <div className='grid-full post-text font-lg nah-none'>{text}</div>
-            <div className='grid-chunk height-ml block nah-none grid-center'><AvatarImage avatarName={avatar} /></div>
-            <div className='nah-none grid-center'><a href={link}>{user}</a></div>
-            <div className='cursor-pointer nah-none grid-center single-none grid-last-3'><Link to={id}><CommentButton /></Link></div>
-            <div className='cursor-pointer nah-none grid-center grid-last-2' onClick={submitF}><FavButton /></div>
-            <div className='cursor-pointer grid-center grid-last' onClick={submitN}><NahButton /></div>
+        <section id={id} onLoad={setR} className='feed-node grid border-b bg-bright padding-m'>
+            <div className='grid--full-width post-text font-lg nah-none'>{text}</div>
+            <div className='grid--avatar height-ml block nah-none'><AvatarImage avatarName={avatar} /></div>
+            <div className='nah-none grid--center'><a href={link}>{user}</a></div>
+            <div className='grid--last-3 grid--center cursor-pointer nah-none single-none'><Link to={id}><CommentButton /></Link></div>
+            <div className='grid--last-2 grid--center cursor-pointer nah-none' onClick={submitF}><FavButton /></div>
+            <div className='grid--last grid--center cursor-pointer' onClick={submitN}><NahButton /></div>
         </section>
     )
 

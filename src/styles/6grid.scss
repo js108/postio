@@ -1,97 +1,104 @@
-.grid-1 {
-	display: grid;
-	grid-template-columns: 2fr 10fr;
-	grid-column-gap: 20px;
-}
-
-.grid-2 {
+// the basic grid
+.grid {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: $m;
+	grid-row-gap: 0;
 }
 
-.grid-3 {
-	display: grid;
-	grid-template-columns: 35px 150px repeat(7, 1fr) repeat(3, 45px);
-	grid-row-gap: 10px;
-	grid-template-rows: minmax(50px, 1fr);
-}
-
-.grid-full {
+// grid elements
+.grid--full-width {
 	grid-column-start: 1;
 	grid-column-end: 13;
-
 }
 
-.grid-part {
-	grid-column-start: 3; 
+.grid--l {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.grid--r {
+	grid-column-start: 3;
 	grid-column-end: 13;
 }
 
-.grid-l {
-	grid-column-start: 1; 
-	grid-column-end: 11;
-	grid-row-start: 1; 
-	grid-row-end: 3;
-}
-
-.grid-sm {
-	grid-column-start: 11; 
-	grid-column-end: 13;
-	grid-row-start: 2; 
-	grid-row-end: 3;
-}
-
-
-.grid-last-3 {
+.grid--last-3 {
 	grid-column-start: 10; 
 	grid-column-end: 11;
 	justify-self: end;
 }
 
-.grid-last-2 {
+.grid--last-2 {
 	grid-column-start: 11; 
 	grid-column-end: 12;
 	justify-self: end;
 }
 
-.grid-last {
+.grid--last {
 	grid-column-start: 12; 
 	grid-column-end: 13;
 	justify-self: end;
 }
 
-.grid-center {
+.grid--center, .grid--avatar {
 	align-self: center;
 }
 
-.grid-contents {
-	display: contents;
+// grid modifiers
+.feed-node.grid {
+	display: grid;
+	grid-template-columns: 35px 150px repeat(7, 1fr) repeat(3, 45px);
+	grid-column-gap: 0;
+	grid-row-gap: $m;
+}
+
+.single-post-page.grid {
+	grid-row-gap: 0;
+}
+
+.add-post-form {
+	.grid--l {
+		grid-column-start: 1;
+		grid-column-end: 12;
+		grid-row-start: 1;
+		grid-row-end: 4;
+	}
+
+	.grid--r {
+		grid-column-start: 12;
+		grid-column-end: 13;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
 }
 
 .single-post {
-		.grid-chunk {
+	.feed-node.grid {
+		display: grid;
+		grid-template-columns: repeat(10, 1fr) repeat(2, 45px);;
+		grid-column-gap: 0;
+		grid-row-gap: 0;
+		.grid--avatar {
 			grid-column-start: 1;
-			grid-column-end: 2;
+			grid-column-end: 3;
 			grid-row-start: 1;
-			grid-row-end: 3;
+			grid-row-end: 2;
+			align-self: auto;
 			img {
-				display: block;
-				width: 82%;
-				height: auto;
-				max-width: none;
-    			max-height: none;
-			}
+					display: block;
+					width: 80%;
+					height: auto;
+					max-width: none;
+	    			max-height: none;
+				}
 		}
-		.grid-full {
-			grid-column-start: 2;
+		.grid--avatar.height-ml {
+			height: 100%;
+			width: 100%;
+		}
+		.grid--full-width {
+			grid-column-start: 3;
 			grid-column-end: 13;
-
 		}
-		.grid-chunk.height-ml {
-			height: auto;
-		}
-		.grid-center {
-			align-self: end;
-		}
+	}
 }
-

@@ -25,15 +25,15 @@ const AddPostForm = ({user='', avatar='', postId, onNewPost=f=>f, onSubmit=f=>f}
     }
 
     return (
-        <section className='padding-m bg-bright'>
-            <form className='grid-3' onSubmit={submitValue}>
-                <textarea id='post-form' maxLength='140' rows='3' 
-                    className='grid-l font-lg border-bright corners margin-r-s' 
+        <section className='add-post padding-m bg-bright height-full'>
+            <form className='add-post-form grid height-full' onSubmit={submitValue}>
+                <textarea id='post-form' maxLength='140' rows='3'
+                    className='grid--l font-lg border-bright corners' 
                     ref={input => _text = input}
                     type='text'
                     placeholder="write something in a maximum of 140 characters why don't you" required>
                 </textarea>
-                <button type='submit' className='grid-sm padding-m bg-highlight color-bright border-0 cursor-pointer font-m font-bold corners'>POST</button>
+                <button type='submit' className='grid--r padding-m bg-highlight color-bright border-0 cursor-pointer font-m font-bold corners'>POST</button>
             </form>
         </section>
     )
